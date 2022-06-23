@@ -1,0 +1,27 @@
+/**********************************************************************
+ *
+ * app/class/DB/itkCBComp.css
+ *
+ * author: Patrick Dooley
+ *
+ *
+ **********************************************************************
+ *
+ * Copyright (c) 2017 iTKunst corporation
+ *
+ **********************************************************************/
+
+.page {
+	margin: 0 auto;
+}
+
+.app-icon {
+    float: right;
+    font-size: 48px !important;
+    width: 48px;
+    height: 48px;
+}
+
+.app-content {
+	padding-top: 150px;
+}

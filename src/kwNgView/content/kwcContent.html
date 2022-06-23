@@ -1,0 +1,25 @@
+<div *ngIf="view"
+     [class]="sStyl"
+     [id]="sId">
+
+    <div>{{sComp}}</div>
+
+    {{sText}}
+
+    <kwc-table
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-table>
+
+    <kwc-rows
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-rows>
+
+</div>

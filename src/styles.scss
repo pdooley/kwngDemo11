@@ -1,0 +1,196 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~normalize.css/normalize.css';
+@import '~angular-calendar/scss/angular-calendar.scss';
+@import "~highlight.js/styles/androidstudio.css";
+@import "~quill/dist/quill.snow.css";
+@import "styles/var";
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+@import 'styles/tables';
+@import "styles/cards";
+@import "styles/inbox";
+@import "styles/calendar";
+@import "styles/misc";
+@import "styles/tabs";
+
+@keyframes pageLoad {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.page-load-animation {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  animation: pageLoad linear 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+  background: #2B303B;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.title_dw {
+  margin: auto 0 auto 36.5px;
+
+  .title {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: GothamRounded-Light;
+    color: var(--charcoal-grey-two);
+    width: 196px;
+  }
+
+  .subtitle {
+    font-size: 9.7px;
+    margin: 0;
+    font-family: GothamRounded;
+    font-weight: 300;
+    color: var(--ocean-blue);
+  }
+
+}
+
+.roster-title {
+  font-family: GothamRounded;
+  font-size: 20.9px;
+  font-weight: 300;
+  padding: 44px;
+  color: var(--charcoal-grey-two);
+  background-color: var(--white-three);
+}
+
+
+
+md-tabs.tab.button md-tab-item {
+  text-transform: none;
+  height: fit-content;
+}
+
+md-tabs.tab.button md-tab-item.md-active {
+  color: var(--bright-orange);
+}
+
+/* ==========================
+   Peter
+   ==========================
+ */
+div.tab.button, md-tabs.tab.button md-tab-item {
+  margin-top: auto;
+  padding: 0 20px 0 10px;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  -webkit-justify-content: flex-end;
+  color: #c0c0c0;
+  font-family: GothamRounded-Light;
+  border: none;
+  text-align: center;
+  max-width: 216px;
+}
+
+.tab.button {
+  width: 40%;
+  background-color: var(--white-two);
+  border-bottom: solid 0.5px var(--pale-grey-two);
+}
+
+div.tab.button:hover, md-tabs.tab.button md-tab-item:hover {
+  border-bottom: solid 3px var(--bright-orange);
+  color: var(--bright-orange);
+}
+
+div.tab.button.active, md-tabs.tab.button md-tab-item.md-active {
+  color: var(--bright-orange);
+  border-bottom: solid 3px var(--bright-orange);
+}
+
+
+
+.nav-container {
+  display: flex;
+  background-color: var(--white-two);
+  font-family: GothamRounded;
+  font-size: 16.6px;
+  font-weight: 300;
+  height: 98px;
+  min-width: 768px;
+  border: solid 0.5px var(--pale-grey-two);
+  padding: 1.5em;
+}
+
+.nav-container-item {
+  min-height: 9%;
+  display: flex;
+}
+
+.nav-container-item.nav-main {
+  width: 75%;
+}
+
+.nav-container-item.nav-right {
+  width: 25%;
+}
+
+.nav-container-item.nav-right div.tab.button {
+  width: 216px;
+}
+
+.nav-title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: GothamRounded-Light;
+  color: var(--charcoal-grey-two);
+  margin: auto 51px auto 134px;
+}
+
+
+.top-nav-items {
+  display: flex;
+  width: 50%;
+}
+
+
+
+.search-results-row:not(:first-child) {
+  margin-top: 38px;
+}
+
+.search-results-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.deal-board-container {
+  margin: 45px auto 45px 68.5px;
+}
+
+/*.deal-board-container .search-result {*/
+.deal-search-result {
+  margin-right: 36px;
+  margin-bottom: 36px;
+  font-size: 30px;
+  font-weight: 500;
+  width: 325px;
+  height: 325px;
+  font-family: GothamRounded;
+  position: relative;
+}

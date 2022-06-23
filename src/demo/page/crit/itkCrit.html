@@ -1,0 +1,128 @@
+<!--
+/**********************************************************************
+ *
+ * app/comp/crit/itkCritComp.html
+ *
+ * author: Patrick Dooley
+ *
+ *
+ **********************************************************************
+ *
+ * Copyright (c) 2017 iTKunst corporation
+ *
+ **********************************************************************/
+-->
+
+<div>
+
+	<div flexLayout="column"
+		 flexLayoutAlign="center center">
+
+		<div fxFlex="33">
+
+			<div>
+
+				<mat-icon class="app-icon">
+					{{ info.link.sIcon }}
+				</mat-icon>
+
+				<h3 style="padding-top:13px;">
+					{{ info.title.sMain }}
+				</h3>
+
+			</div>
+
+			<div class="app-sub">
+				{{ info.title.sSub }}
+			</div>
+
+		</div>
+
+		<div fxFlex="5">
+
+		</div>
+
+		<div fxFlex="61">
+
+			<h3>
+				{{ data.sMain }}
+			</h3>
+
+			<form>
+
+				<mat-form-field style="width:100%">
+
+					<input matInput
+							 type="text"
+							 placeholder="{{ data.sSub }}"
+							 value="{{ resp.GuestResp }}"
+							 #feedback>
+
+					<mat-icon matSuffix>
+						mode_edit
+					</mat-icon>
+
+					<mat-hint align="start">
+						Hit me!
+					</mat-hint>
+
+					<mat-hint align="end">
+						{{ feedback.value.length }} / 256
+					</mat-hint>
+
+				</mat-form-field>
+
+				<mat-form-field style="width:100%">
+
+					<input matInput
+							 type="tel"
+							 placeholder="Would you like to provide your number?"
+							 value="{{ resp.GuestPhone }}">
+
+					<mat-hint align="start">
+						Phone number is optional
+					</mat-hint>
+
+					<mat-icon matSuffix>
+						phone
+					</mat-icon>
+
+				</mat-form-field>
+
+				<mat-form-field style="width:100%">
+
+					<input matInput
+							 type="email"
+							 placeholder="Would you like to provide your email?"
+							 value="{{ resp.GuestEmail }}">
+
+					<mat-icon matSuffix>
+						email
+					</mat-icon>
+
+					<mat-hint align="start">
+						Email is optional
+					</mat-hint>
+				</mat-form-field>
+
+				<div style="text-align: right;margin-top:100px">
+
+					<button mat-button
+							(click)="onSubmit()">
+						SUBMIT!
+					</button>
+
+					<button mat-button
+							(click)="onCancel()">
+						CANCEL
+					</button>
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+
+</div>

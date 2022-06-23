@@ -1,0 +1,24 @@
+<div *ngIf="view"
+     class="container"
+     fxLayout="row"
+     fxLayoutAlign="start baseline"
+     fxLayoutGap="10px">
+
+    <div fxLayout="column"
+         fxLayoutAlign="start baseline"
+         fxLayoutGap="20px"
+         fxFlex="grow">
+
+        <div class="title">
+            {{ view.sTitle }}
+        </div>
+
+        <kwc-input [viewIn]="view.input"></kwc-input>
+
+        <kwc-btn-icon [viewIn]="view.btn"></kwc-btn-icon>
+
+        <button class="fury-column-filter" type="button" mat-icon-button [matMenuTriggerFor]="columnFilter">
+            <mat-icon>filter_list</mat-icon>
+        </button>
+        <ng-content select=".actions"></ng-content>
+    </div>

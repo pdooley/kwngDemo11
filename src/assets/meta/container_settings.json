@@ -1,0 +1,25 @@
+{
+  "AttachStdin" : true,
+  "OpenStdin" : true,
+  "name" : "cont_guestresp",
+  "Image" : "img_guestresp",
+  "Volumes" : { },
+  "ExposedPorts" : { },
+  "HostConfig" :
+  {
+    "Binds":
+    [
+      "/4201/tcp":
+      [home/pdooley/code/guestresp:/usr/local/hcn/services/guestresp:rw"
+      ],
+        "PortBindings":
+        {
+            "HostIp": "0.0.0.0",
+          "
+      {
+        "HostPort": "4201"
+        }
+      ]
+    }
+  }
+}

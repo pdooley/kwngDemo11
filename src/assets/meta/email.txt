@@ -1,0 +1,22 @@
+
+iTKunst - A Unique IT Management Consulting Offering
+
+Dear Gordon,
+
+I hope things are going well for you. It has been a while.  If you think you or someone you know may benefit from the following info, please let me know.
+
+I would like to provide a short introduction to iTKunst's IP and Services.  I believe they would significantly benefit and strengthen your company's offerings.
+
+iTKunst corporation has been contributing to the Ottawa high-tech sector for the past 8 years.  It is pronounced I-T-koonst.  Kunst is German for Art. We are strong believers that a successful company requires Art as well as Information and Technology.
+
+Our approach to building systems is very much a modelling approach.  This allows one to easily create re-usable libraries: Thus reducing Time to Market (TTM) and increasing stability (near 0 bug count). Currently, the industry has some difficulty creating re-usable softeware.  We believe this is a direct result of the lack of appreciation for artistic skills in the software profession.
+
+As an example of the benefit of this approach,  iTKunst has released two products and will be releasing more in the near future.  The most recent (and most exciting) product is a RAD tool: kWng (kunstWerk for Angular).  kWng  dramatically simplifies and accelerates Angular development.
+
+I would love to have the opportunity to speak with you.
+
+Thanks.
+
+Sincerely,
+
+Patrick Dooley.

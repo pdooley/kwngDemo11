@@ -1,0 +1,1086 @@
+{
+  "sMode": "debug",
+  "sRedirect": "http://www.itkunst.com",
+  "bAutoLogin": true,
+  "bTraceApp": false,
+  "bTraceRoute": false,
+  "bTraceState": false,
+  "credentials": {
+    "sUserName": "ironforgedev4@gmail.com",
+    "sPassword": "12345678"
+  },
+  "display": {
+    "bDispAll": false,
+    "bDispData": false,
+    "bDispDataFltr": false,
+    "bDispDataIn": false,
+    "bDispFltr": false,
+    "bDispId": false,
+    "bDispInits": false,
+    "bDispInitsIn": false,
+    "bDispTag": false,
+    "bDispView": false,
+    "bDispViewIn": false
+  },
+  "attrs": {
+    "id": {
+      "bDispAll": false,
+      "bDispIdI": false,
+      "bDispIdD": false,
+      "bDispIdV": false,
+      "bDispVal": false
+    },
+    "link": {
+      "bDispAll": false,
+      "bDispIdI": false,
+      "bDispIdD": false,
+      "bDispIdV": false,
+      "bDispVal": false,
+      "bDispTmpl": false
+    },
+    "styl": {
+      "bDispAll": false,
+      "bDispIdI": false,
+      "bDispIdD": false,
+      "bDispIdV": false,
+      "bDispVal": false,
+      "bDispTmpl": false
+    },
+    "text": {
+      "bDispAll": false,
+      "bDispIdI": false,
+      "bDispIdD": false,
+      "bDispIdV": false,
+      "bDispVal": false,
+      "bDispTmpl": false
+    }
+  },
+  "fltr": {
+    "bDispAll": false,
+    "bDispData": false,
+    "bDispIdI": false,
+    "bDispIdD": false,
+    "bDispVal": false
+  },
+  "rslt": {
+    "bDispAll": false,
+    "bDispIdI": false,
+    "bDispIdD": false,
+    "bDispVal": false
+  },
+  "routes": {
+    "sLogin": "login",
+    "sLogout": "logout",
+    "sMain": "apps/deals",
+    "sRegister": "register",
+    "sReset": "reset"
+  },
+  "aws": {
+    "bucket": "dealwip",
+    "accessKey": "AKIAIORA26AL37IARCFA",
+    "secretKey": "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",
+    "region": "us-east-1",
+    "folder": "jsa-s3",
+    "serverEncryption": "AES256"
+  },
+  "services": [
+    {
+      "nId": 0,
+      "sCode": "dealwip_unsecure",
+      "sHost": "//dealwipserver.herokuapp.com",
+      "nPort": 8000,
+      "sProtocol": "http"
+    },
+    {
+      "nId": 1,
+      "sCode": "dealwip",
+      "sHost": "//dealwipserver.herokuapp.com",
+      "nPort": 8000,
+      "sProtocol": "https"
+    },
+    {
+      "nId": 2,
+      "sCode": "local",
+      "sHost": "localhost",
+      "nPort": 5000,
+      "sProtocol": "http"
+    }
+  ],
+  "tokens": [
+    {
+      "nId": 0,
+      "sCode": "null",
+      "sVal": "null"
+    },
+    {
+      "nId": 1,
+      "sCode": "auth0",
+      "sVal": ""
+    },
+    {
+      "nId": 2,
+      "sCode": "org",
+      "sVal": ""
+    }
+  ],
+  "apis": {
+    "bootstrap": {
+      "sMode": "debug",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": "accountManagement",
+            "sTemplate": "account-management/bootstrap",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/data/custom/custom.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "apis": {
+      "sMode": "debug",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": "accountManagement",
+            "sTemplate": "account-management/bootstrap",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/apis.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "currency": {
+      "sMode": "live",
+      "actions": {
+        "delete": {
+          "live": {
+            "sService": "accountManagement",
+            "sTemplate": "account-management/accounts/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "airSembly",
+            "sTemplate": "api/accounts[0]",
+            "sToken": "null"
+          }
+        },
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/curr.json",
+            "sToken": null
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/curr.json",
+            "sToken": "null"
+          }
+        },
+        "patch": {
+          "live": {
+            "sService": "null",
+            "sTemplate": "account-management/accounts/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "null",
+            "sTemplate": "api/accounts",
+            "sToken": "null"
+          }
+        },
+        "post": {
+          "live": {
+            "sService": "accountManagement",
+            "sTemplate": "account-management/accounts",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "airSembly",
+            "sTemplate": "api/accounts",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "currencies": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/curr.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/curr.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "currenciesMax": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/currMax.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/currMax.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "init": {
+      "sMode": "live",
+      "actions": {
+        "delete": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/init/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/init/[0]",
+            "sToken": "null"
+          }
+        },
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "api/init/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/init/[0]",
+            "sToken": "null"
+          }
+        },
+        "patch": {
+          "live": {
+            "sService": "null",
+            "sTemplate": "api/init",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "api/init",
+            "sToken": "null"
+          }
+        },
+        "post": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/init",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/init",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "inits": {
+      "sMode": "debug",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/inits.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/inits.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "language": {
+      "sMode": "live",
+      "actions": {
+        "delete": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/lang[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/lang[0]",
+            "sToken": "null"
+          }
+        },
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "api/lang/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/lang/[0]",
+            "sToken": "null"
+          }
+        },
+        "patch": {
+          "live": {
+            "sService": "null",
+            "sTemplate": "api/lang",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "api/lang",
+            "sToken": "null"
+          }
+        },
+        "post": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/lang",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/lang",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "languages": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/lang.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/lang.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "languagesMax": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/currMax.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/currMax.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "mdl": {
+      "sMode": "live",
+      "actions": {
+        "delete": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/mdl[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/mdl[0]",
+            "sToken": "null"
+          }
+        },
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "api/mdlv/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/mdl/[0]",
+            "sToken": "null"
+          }
+        },
+        "patch": {
+          "live": {
+            "sService": "null",
+            "sTemplate": "api/mdlv",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "api/mdlv",
+            "sToken": "null"
+          }
+        },
+        "post": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/mdlv",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/mdlv",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "mdls": {
+      "sMode": "debug",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/models.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/models.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "srvc": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "null",
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "timezone": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "null",
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "timezones": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "null",
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "timezonesMax": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "null",
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "token": {
+      "sMode": "live",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "null",
+            "sTemplate": "assets/meta/tz.json",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "view": {
+      "sMode": "live",
+      "actions": {
+        "delete": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/view[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/view[0]",
+            "sToken": "null"
+          }
+        },
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "api/view/[0]",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/view/[0]",
+            "sToken": "null"
+          }
+        },
+        "patch": {
+          "live": {
+            "sService": "null",
+            "sTemplate": "api/view",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "api/view",
+            "sToken": "null"
+          }
+        },
+        "post": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "api/view",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "api/view",
+            "sToken": "null"
+          }
+        }
+      }
+    },
+    "views": {
+      "sMode": "debug",
+      "actions": {
+        "get": {
+          "live": {
+            "sService": null,
+            "sTemplate": "assets/meta/views.json",
+            "sToken": "null"
+          },
+          "debug": {
+            "sService": null,
+            "sTemplate": "assets/meta/views.json",
+            "sToken": "null"
+          }
+        }
+      }
+    }
+  },
+  "mdls": {
+    "api": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "nDecimalDigits",
+          "sNameInt": "nDecimalDigits",
+          "nPosition": 3,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Decimal Digits"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 4,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sNamePlural",
+          "sNameInt": "sNamePlural",
+          "nPosition": 5,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name Plural"
+        },
+        {
+          "default": 0,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "sSymbol",
+          "sNameExt": "sSymbol",
+          "nPosition": 6,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Symbol"
+        },
+        {
+          "default": "en",
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "nRounding",
+          "sNameExt": "nRounding",
+          "nPosition": 7,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Rounding"
+        }
+      ]
+    },
+    "currency": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "nDecimalDigits",
+          "sNameInt": "nDecimalDigits",
+          "nPosition": 3,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Decimal Digits"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 4,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sNamePlural",
+          "sNameInt": "sNamePlural",
+          "nPosition": 5,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name Plural"
+        },
+        {
+          "default": 0,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "sSymbol",
+          "sNameExt": "sSymbol",
+          "nPosition": 6,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Symbol"
+        },
+        {
+          "default": "en",
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "nRounding",
+          "sNameExt": "nRounding",
+          "nPosition": 7,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Rounding"
+        }
+      ]
+    },
+    "language": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 3,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sNative",
+          "sNameInt": "sNative",
+          "nPosition": 4,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Native"
+        }
+      ]
+    },
+    "mdl": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "nDecimalDigits",
+          "sNameInt": "nDecimalDigits",
+          "nPosition": 3,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Decimal Digits"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 4,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sNamePlural",
+          "sNameInt": "sNamePlural",
+          "nPosition": 5,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name Plural"
+        },
+        {
+          "default": 0,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "sSymbol",
+          "sNameExt": "sSymbol",
+          "nPosition": 6,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Symbol"
+        },
+        {
+          "default": "en",
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "nRounding",
+          "sNameExt": "nRounding",
+          "nPosition": 7,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Rounding"
+        }
+      ]
+    },
+    "srvc": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "nDecimalDigits",
+          "sNameInt": "nDecimalDigits",
+          "nPosition": 3,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Decimal Digits"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 4,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sNamePlural",
+          "sNameInt": "sNamePlural",
+          "nPosition": 5,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name Plural"
+        },
+        {
+          "default": 0,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "sSymbol",
+          "sNameExt": "sSymbol",
+          "nPosition": 6,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Symbol"
+        },
+        {
+          "default": "en",
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameInt": "nRounding",
+          "sNameExt": "nRounding",
+          "nPosition": 7,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Rounding"
+        }
+      ]
+    },
+    "timezone": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 3,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        }
+      ]
+    },
+    "token": {
+      "sType": "sub",
+      "params": [
+        {
+          "default": null,
+          "bIsRequired": false,
+          "bIsVisible": true,
+          "sNameExt": "nId",
+          "sNameInt": "nId",
+          "nPosition": 1,
+          "sSrvcIn": "num",
+          "sSrvcOut": "num",
+          "sTitle": "Id"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sCode",
+          "sNameInt": "sCode",
+          "nPosition": 2,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Code"
+        },
+        {
+          "default": null,
+          "bIsRequired": true,
+          "bIsVisible": true,
+          "sNameExt": "sName",
+          "sNameInt": "sName",
+          "nPosition": 3,
+          "sSrvcIn": "str",
+          "sSrvcOut": "str",
+          "sTitle": "Name"
+        }
+      ]
+    }
+  }
+}

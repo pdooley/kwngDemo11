@@ -1,0 +1,4563 @@
+{
+  "notifications": [
+    {
+      "_id": "5a903dfb00cb9700140686f5",
+      "updatedAt": "2018-02-23T16:14:51.651Z",
+      "createdAt": "2018-02-23T16:14:51.651Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a903dfb00cb9700140686f3",
+        "updatedAt": "2018-02-23T16:14:51.565Z",
+        "createdAt": "2018-02-23T16:14:51.565Z",
+        "author": "5a7880dd1b54380014932be9",
+        "type": "flag",
+        "title": "iSSUE",
+        "diligence_document": {
+          "_id": "5a7a376b9bbb050014cbb081",
+          "updatedAt": "2018-02-23T16:14:51.601Z",
+          "createdAt": "2018-02-06T23:16:59.493Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a77feeb80366f00143507d6",
+          "name": "Test Document 2.pdf",
+          "number": 3,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7a376b9bbb050014cbb081",
+          "__v": 0,
+          "assigned": [],
+          "flags": [
+            "5a903dfb00cb9700140686f3"
+          ],
+          "is_archived": false
+        },
+        "number": 0,
+        "__v": 0,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 863,
+            "h": 1117
+          },
+          "circle": {
+            "x": 441,
+            "y": 294,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "ISSUE",
+        "comments": [],
+        "tagged_users": [
+          {
+            "tagged": "5a7886ca1b54380014932bee",
+            "by": "5a7880dd1b54380014932be9",
+            "_id": "5a903dfb00cb9700140686f4"
+          }
+        ]
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7886ca1b54380014932bee"
+      ]
+    }
+/*,
+    {
+      "_id": "5a8c6d523ba28e0014fcc122",
+      "updatedAt": "2018-02-20T18:47:46.671Z",
+      "createdAt": "2018-02-20T18:47:46.671Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a8c6d523ba28e0014fcc120",
+        "updatedAt": "2018-02-20T18:47:46.576Z",
+        "createdAt": "2018-02-20T18:47:46.576Z",
+        "author": "5a7880dd1b54380014932be9",
+        "type": "flag",
+        "title": "This",
+        "diligence_document": {
+          "_id": "5a7802ab361a4800148e5f1a",
+          "updatedAt": "2018-02-20T18:47:46.606Z",
+          "createdAt": "2018-02-05T07:07:23.092Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a77feeb80366f00143507d6",
+          "name": "Test doc1.pdf",
+          "number": 2,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7802ab361a4800148e5f1a",
+          "__v": 0,
+          "assigned": [
+            "5a77feeb80366f00143507d6"
+          ],
+          "flags": [
+            "5a786e311b54380014932b9c",
+            "5a788f2a1b54380014932c20",
+            "5a78c5e961687b0014ea481f",
+            "5a8c6d523ba28e0014fcc120"
+          ],
+          "is_archived": false
+        },
+        "number": 3,
+        "__v": 0,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "circle": {
+            "x": 494,
+            "y": 357,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "This",
+        "comments": [],
+        "tagged_users": [
+          {
+            "tagged": "5a7880dd1b54380014932be9",
+            "by": "5a7880dd1b54380014932be9",
+            "_id": "5a8c6d523ba28e0014fcc121"
+          }
+        ]
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7880dd1b54380014932be9"
+      ]
+    },
+    {
+      "_id": "5a80979dc9c4010014df662f",
+      "updatedAt": "2018-02-11T19:21:01.258Z",
+      "createdAt": "2018-02-11T19:21:01.258Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a809779c9c4010014df662e",
+      "updatedAt": "2018-02-11T19:20:25.937Z",
+      "createdAt": "2018-02-11T19:20:25.937Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a78115e1b54380014932b94",
+        "updatedAt": "2018-02-11T19:20:25.913Z",
+        "createdAt": "2018-02-05T08:10:06.473Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 1152,
+            "h": 1490
+          },
+          "rect": {
+            "x": -3,
+            "y": 273,
+            "w": 150,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "sum",
+          "email": "sum@ironforge.co"
+        },
+        "org": {
+          "email": "sum@ironforge.co",
+          "name": "Iron forge"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a809771c9c4010014df662d",
+      "updatedAt": "2018-02-11T19:20:17.188Z",
+      "createdAt": "2018-02-11T19:20:17.188Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a78115e1b54380014932b94",
+        "updatedAt": "2018-02-11T19:20:25.913Z",
+        "createdAt": "2018-02-05T08:10:06.473Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 1152,
+            "h": 1490
+          },
+          "rect": {
+            "x": -3,
+            "y": 273,
+            "w": 150,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "sum",
+          "email": "sum@ironforge.co"
+        },
+        "org": {
+          "email": "sum@ironforge.co",
+          "name": "Iron forge"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a80976bc9c4010014df662c",
+      "updatedAt": "2018-02-11T19:20:11.532Z",
+      "createdAt": "2018-02-11T19:20:11.532Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a809766c9c4010014df662b",
+      "updatedAt": "2018-02-11T19:20:06.035Z",
+      "createdAt": "2018-02-11T19:20:06.035Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a809746c9c4010014df662a",
+      "updatedAt": "2018-02-11T19:19:34.605Z",
+      "createdAt": "2018-02-11T19:19:34.605Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a809739c9c4010014df6629",
+      "updatedAt": "2018-02-11T19:19:21.764Z",
+      "createdAt": "2018-02-11T19:19:21.764Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a809735c9c4010014df6628",
+      "updatedAt": "2018-02-11T19:19:17.485Z",
+      "createdAt": "2018-02-11T19:19:17.485Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a78c5e961687b0014ea4821",
+      "updatedAt": "2018-02-05T21:00:25.488Z",
+      "createdAt": "2018-02-05T21:00:25.488Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a78c5e961687b0014ea481f",
+        "updatedAt": "2018-02-05T21:00:25.430Z",
+        "createdAt": "2018-02-05T21:00:25.430Z",
+        "author": "5a7880dd1b54380014932be9",
+        "type": "flag",
+        "title": "MVA Issue",
+        "diligence_document": {
+          "_id": "5a7802ab361a4800148e5f1a",
+          "updatedAt": "2018-02-20T18:47:46.606Z",
+          "createdAt": "2018-02-05T07:07:23.092Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a77feeb80366f00143507d6",
+          "name": "Test doc1.pdf",
+          "number": 2,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7802ab361a4800148e5f1a",
+          "__v": 0,
+          "assigned": [
+            "5a77feeb80366f00143507d6"
+          ],
+          "flags": [
+            "5a786e311b54380014932b9c",
+            "5a788f2a1b54380014932c20",
+            "5a78c5e961687b0014ea481f",
+            "5a8c6d523ba28e0014fcc120"
+          ],
+          "is_archived": false
+        },
+        "number": 2,
+        "__v": 0,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "circle": {
+            "x": 446,
+            "y": 192,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "MVA Issue",
+        "comments": [],
+        "tagged_users": [
+          {
+            "tagged": "5a7886ca1b54380014932bee",
+            "by": "5a7880dd1b54380014932be9",
+            "_id": "5a78c5e961687b0014ea4820"
+          }
+        ]
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7886ca1b54380014932bee"
+      ]
+    },
+    {
+      "_id": "5a78bcb661687b0014ea47bc",
+      "updatedAt": "2018-02-05T20:21:10.405Z",
+      "createdAt": "2018-02-05T20:21:10.405Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a78bc8e61687b0014ea47bb",
+        "updatedAt": "2018-02-05T20:21:10.382Z",
+        "createdAt": "2018-02-05T20:20:30.510Z",
+        "type": "e-Signature",
+        "author": "5a7880dd1b54380014932be9",
+        "closing_form": {
+          "_id": "5a7890df1b54380014932c2f",
+          "updatedAt": "2018-02-05T20:20:30.517Z",
+          "createdAt": "2018-02-05T17:14:07.162Z",
+          "id_number": 4,
+          "title": "Doc 3",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a7890df1b54380014932c2f",
+          "is_exhibit": false,
+          "author": "5a7880dd1b54380014932be9",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7891171b54380014932c30",
+            "5a78bc8e61687b0014ea47bb"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "rect": {
+            "x": 455,
+            "y": 89,
+            "w": 150,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "Tunji",
+          "email": "tunji@dealwip.co"
+        },
+        "org": {
+          "email": "tunji@dealwip.co",
+          "name": "dealWIP"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7880dd1b54380014932be9"
+      ]
+    },
+    {
+      "_id": "5a7891c71b54380014932c34",
+      "updatedAt": "2018-02-05T17:17:59.151Z",
+      "createdAt": "2018-02-05T17:17:59.151Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7891171b54380014932c30",
+        "updatedAt": "2018-02-05T17:17:59.121Z",
+        "createdAt": "2018-02-05T17:15:03.447Z",
+        "type": "e-Signature",
+        "author": "5a7880dd1b54380014932be9",
+        "closing_form": {
+          "_id": "5a7890df1b54380014932c2f",
+          "updatedAt": "2018-02-05T20:20:30.517Z",
+          "createdAt": "2018-02-05T17:14:07.162Z",
+          "id_number": 4,
+          "title": "Doc 3",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a7890df1b54380014932c2f",
+          "is_exhibit": false,
+          "author": "5a7880dd1b54380014932be9",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7891171b54380014932c30",
+            "5a78bc8e61687b0014ea47bb"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 11,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "rect": {
+            "x": 145,
+            "y": 462,
+            "w": 220,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "TUNJI",
+          "email": "tunji@dealwip.co"
+        },
+        "org": {
+          "email": "tunji@dealwip.co",
+          "name": "dealWIP"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7880dd1b54380014932be9"
+      ]
+    },
+    {
+      "_id": "5a7891a41b54380014932c33",
+      "updatedAt": "2018-02-05T17:17:24.076Z",
+      "createdAt": "2018-02-05T17:17:24.076Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7891171b54380014932c30",
+        "updatedAt": "2018-02-05T17:17:59.121Z",
+        "createdAt": "2018-02-05T17:15:03.447Z",
+        "type": "e-Signature",
+        "author": "5a7880dd1b54380014932be9",
+        "closing_form": {
+          "_id": "5a7890df1b54380014932c2f",
+          "updatedAt": "2018-02-05T20:20:30.517Z",
+          "createdAt": "2018-02-05T17:14:07.162Z",
+          "id_number": 4,
+          "title": "Doc 3",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a7890df1b54380014932c2f",
+          "is_exhibit": false,
+          "author": "5a7880dd1b54380014932be9",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7891171b54380014932c30",
+            "5a78bc8e61687b0014ea47bb"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 11,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "rect": {
+            "x": 145,
+            "y": 462,
+            "w": 220,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "TUNJI",
+          "email": "tunji@dealwip.co"
+        },
+        "org": {
+          "email": "tunji@dealwip.co",
+          "name": "dealWIP"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7880dd1b54380014932be9"
+      ]
+    },
+    {
+      "_id": "5a7891961b54380014932c32",
+      "updatedAt": "2018-02-05T17:17:10.532Z",
+      "createdAt": "2018-02-05T17:17:10.532Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7891171b54380014932c30",
+        "updatedAt": "2018-02-05T17:17:59.121Z",
+        "createdAt": "2018-02-05T17:15:03.447Z",
+        "type": "e-Signature",
+        "author": "5a7880dd1b54380014932be9",
+        "closing_form": {
+          "_id": "5a7890df1b54380014932c2f",
+          "updatedAt": "2018-02-05T20:20:30.517Z",
+          "createdAt": "2018-02-05T17:14:07.162Z",
+          "id_number": 4,
+          "title": "Doc 3",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a7890df1b54380014932c2f",
+          "is_exhibit": false,
+          "author": "5a7880dd1b54380014932be9",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7891171b54380014932c30",
+            "5a78bc8e61687b0014ea47bb"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 11,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "rect": {
+            "x": 145,
+            "y": 462,
+            "w": 220,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "TUNJI",
+          "email": "tunji@dealwip.co"
+        },
+        "org": {
+          "email": "tunji@dealwip.co",
+          "name": "dealWIP"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7880dd1b54380014932be9"
+      ]
+    },
+    {
+      "_id": "5a788fe81b54380014932c24",
+      "updatedAt": "2018-02-05T17:10:00.865Z",
+      "createdAt": "2018-02-05T17:10:00.865Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a788fba1b54380014932c22",
+        "updatedAt": "2018-02-05T17:10:00.848Z",
+        "createdAt": "2018-02-05T17:09:14.029Z",
+        "type": "e-Signature",
+        "author": "5a7880dd1b54380014932be9",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "rect": {
+            "x": 393,
+            "y": 419,
+            "w": 150,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "TUNJI",
+          "email": "tunji@dealwip.co"
+        },
+        "org": {
+          "email": "tunji@dealwip.co",
+          "name": "dealWIP"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7880dd1b54380014932be9"
+      ]
+    },
+    {
+      "_id": "5a788f2a1b54380014932c21",
+      "updatedAt": "2018-02-05T17:06:50.127Z",
+      "createdAt": "2018-02-05T17:06:50.127Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a788f2a1b54380014932c20",
+        "updatedAt": "2018-02-05T17:06:50.103Z",
+        "createdAt": "2018-02-05T17:06:50.103Z",
+        "author": "5a7880dd1b54380014932be9",
+        "type": "flag",
+        "title": "Issue",
+        "diligence_document": {
+          "_id": "5a7802ab361a4800148e5f1a",
+          "updatedAt": "2018-02-20T18:47:46.606Z",
+          "createdAt": "2018-02-05T07:07:23.092Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a77feeb80366f00143507d6",
+          "name": "Test doc1.pdf",
+          "number": 2,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7802ab361a4800148e5f1a",
+          "__v": 0,
+          "assigned": [
+            "5a77feeb80366f00143507d6"
+          ],
+          "flags": [
+            "5a786e311b54380014932b9c",
+            "5a788f2a1b54380014932c20",
+            "5a78c5e961687b0014ea481f",
+            "5a8c6d523ba28e0014fcc120"
+          ],
+          "is_archived": false
+        },
+        "number": 1,
+        "__v": 0,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 864,
+            "h": 1118
+          },
+          "circle": {
+            "x": 443,
+            "y": 260,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "Small Issue",
+        "comments": [],
+        "tagged_users": []
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": []
+    },
+    {
+      "_id": "5a786e311b54380014932b9e",
+      "updatedAt": "2018-02-05T14:46:09.104Z",
+      "createdAt": "2018-02-05T14:46:09.104Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a786ded1b54380014932b98",
+        "username": "jimhalpert",
+        "firm_values": null,
+        "id": "5a786ded1b54380014932b98"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a786e311b54380014932b9c",
+        "updatedAt": "2018-02-05T14:46:15.873Z",
+        "createdAt": "2018-02-05T14:46:09.068Z",
+        "author": "5a786ded1b54380014932b98",
+        "type": "flag",
+        "title": "This is a flag! Oh my!",
+        "diligence_document": {
+          "_id": "5a7802ab361a4800148e5f1a",
+          "updatedAt": "2018-02-20T18:47:46.606Z",
+          "createdAt": "2018-02-05T07:07:23.092Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a77feeb80366f00143507d6",
+          "name": "Test doc1.pdf",
+          "number": 2,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7802ab361a4800148e5f1a",
+          "__v": 0,
+          "assigned": [
+            "5a77feeb80366f00143507d6"
+          ],
+          "flags": [
+            "5a786e311b54380014932b9c",
+            "5a788f2a1b54380014932c20",
+            "5a78c5e961687b0014ea481f",
+            "5a8c6d523ba28e0014fcc120"
+          ],
+          "is_archived": false
+        },
+        "number": 0,
+        "__v": 1,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 840,
+            "h": 1087
+          },
+          "circle": {
+            "x": 125,
+            "y": 242,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "Can we fix this transaction date?",
+        "comments": [
+          {
+            "author": "5a786ded1b54380014932b98",
+            "_id": "5a786e371b54380014932b9f",
+            "created": "2018-02-05T14:46:15.870Z",
+            "comment": "Thanks!"
+          }
+        ],
+        "tagged_users": [
+          {
+            "tagged": "5a780f644133940014dc7d1c",
+            "by": "5a786ded1b54380014932b98",
+            "_id": "5a786e311b54380014932b9d"
+          }
+        ]
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [
+        "5a780f644133940014dc7d1c"
+      ],
+      "subjects": [
+        "5a780f644133940014dc7d1c"
+      ]
+    },
+    {
+      "_id": "5a7811811b54380014932b95",
+      "updatedAt": "2018-02-05T08:10:41.458Z",
+      "createdAt": "2018-02-05T08:10:41.458Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a78115e1b54380014932b94",
+        "updatedAt": "2018-02-11T19:20:25.913Z",
+        "createdAt": "2018-02-05T08:10:06.473Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 1152,
+            "h": 1490
+          },
+          "rect": {
+            "x": -3,
+            "y": 273,
+            "w": 150,
+            "h": 150
+          }
+        },
+        "attention_of": {
+          "name": "sum",
+          "email": "sum@ironforge.co"
+        },
+        "org": {
+          "email": "sum@ironforge.co",
+          "name": "Iron forge"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a7810bc4133940014dc7d28",
+      "updatedAt": "2018-02-05T08:07:24.415Z",
+      "createdAt": "2018-02-05T08:07:24.415Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810754133940014dc7d26",
+        "updatedAt": "2018-02-05T17:07:51.854Z",
+        "createdAt": "2018-02-05T08:06:13.788Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a77a6ce29fcef002e45a962",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 62,
+            "y": 428,
+            "x": 371
+          }
+        },
+        "attention_of": {
+          "name": "sumner",
+          "email": "sum@ironforge.co"
+        },
+        "org": {
+          "email": "sum@ironforge.co",
+          "name": "Iron Forge Dev"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a7810b84133940014dc7d27",
+      "updatedAt": "2018-02-05T08:07:20.177Z",
+      "createdAt": "2018-02-05T08:07:20.177Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a7810134133940014dc7d25",
+        "updatedAt": "2018-02-11T19:21:01.231Z",
+        "createdAt": "2018-02-05T08:04:35.270Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a780898361a4800148e5f2f",
+          "updatedAt": "2018-02-11T19:18:41.224Z",
+          "createdAt": "2018-02-05T07:32:40.484Z",
+          "id_number": 3,
+          "title": "Test Signature Document",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a780898361a4800148e5f2f",
+          "is_exhibit": false,
+          "author": "5a780240361a4800148e5f16",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a7810134133940014dc7d25",
+            "5a7810754133940014dc7d26",
+            "5a78115e1b54380014932b94",
+            "5a788fba1b54380014932c22",
+            "5a809711c9c4010014df6627"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a788fd31b54380014932c23",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 515,
+            "y": 662,
+            "x": 255
+          }
+        },
+        "attention_of": {
+          "name": "Ian",
+          "email": "ihan616@gmail.com"
+        },
+        "org": {
+          "email": "ihan616@gmail.com",
+          "name": "Sumner"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a780f104133940014dc7d1a",
+      "updatedAt": "2018-02-05T08:00:16.181Z",
+      "createdAt": "2018-02-05T08:00:16.181Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a780931361a4800148e5f33",
+        "updatedAt": "2018-02-05T08:00:16.167Z",
+        "createdAt": "2018-02-05T07:35:13.024Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a7808ce361a4800148e5f32",
+          "updatedAt": "2018-02-05T07:35:13.029Z",
+          "createdAt": "2018-02-05T07:33:34.847Z",
+          "id_number": 2,
+          "title": "Test Doc",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a7808ce361a4800148e5f32",
+          "is_exhibit": false,
+          "author": "5a77feeb80366f00143507d6",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a780931361a4800148e5f33"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a780970361a4800148e5f34",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 477,
+            "y": 281,
+            "x": 127
+          }
+        },
+        "attention_of": {
+          "name": "sum",
+          "email": "sum@ironforge.co"
+        },
+        "org": {
+          "email": "sum@ironforge.co",
+          "name": "Iron Forg e"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a780efa4133940014dc7d19",
+      "updatedAt": "2018-02-05T07:59:54.794Z",
+      "createdAt": "2018-02-05T07:59:54.794Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Signature",
+      "object": {
+        "_id": "5a780931361a4800148e5f33",
+        "updatedAt": "2018-02-05T08:00:16.167Z",
+        "createdAt": "2018-02-05T07:35:13.024Z",
+        "type": "e-Signature",
+        "author": "5a77feeb80366f00143507d6",
+        "closing_form": {
+          "_id": "5a7808ce361a4800148e5f32",
+          "updatedAt": "2018-02-05T07:35:13.029Z",
+          "createdAt": "2018-02-05T07:33:34.847Z",
+          "id_number": 2,
+          "title": "Test Doc",
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/closing/5a7808ce361a4800148e5f32",
+          "is_exhibit": false,
+          "author": "5a77feeb80366f00143507d6",
+          "matter": "5a7800bc80366f00143507d7",
+          "__v": 0,
+          "date_markers": [],
+          "signatures": [
+            "5a780931361a4800148e5f33"
+          ],
+          "exhibits": [],
+          "sequence": "pre"
+        },
+        "__v": 0,
+        "signature_image": "5a780970361a4800148e5f34",
+        "completed": true,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "h": 1490,
+            "w": 1152
+          },
+          "rect": {
+            "h": 150,
+            "w": 477,
+            "y": 281,
+            "x": 127
+          }
+        },
+        "attention_of": {
+          "name": "sum",
+          "email": "sum@ironforge.co"
+        },
+        "org": {
+          "email": "sum@ironforge.co",
+          "name": "Iron Forg e"
+        }
+      },
+      "action": "request_completed",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a780628361a4800148e5f2c",
+      "updatedAt": "2018-02-05T07:22:16.343Z",
+      "createdAt": "2018-02-05T07:22:16.343Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a780240361a4800148e5f16",
+        "username": "ianhantestmidnight",
+        "firm_values": null,
+        "id": "5a780240361a4800148e5f16"
+      },
+      "type": "Matter",
+      "object": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "action": "term_sheet_updated",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6",
+        "5a77feeb80366f00143507d6",
+        "5a780240361a4800148e5f16"
+      ]
+    },
+    {
+      "_id": "5a78060b361a4800148e5f2b",
+      "updatedAt": "2018-02-05T07:21:47.491Z",
+      "createdAt": "2018-02-05T07:21:47.491Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a780240361a4800148e5f16",
+        "username": "ianhantestmidnight",
+        "firm_values": null,
+        "id": "5a780240361a4800148e5f16"
+      },
+      "type": "Matter",
+      "object": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "action": "term_sheet_updated",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6",
+        "5a77feeb80366f00143507d6",
+        "5a780240361a4800148e5f16"
+      ]
+    },
+    {
+      "_id": "5a7805d8361a4800148e5f2a",
+      "updatedAt": "2018-02-05T07:20:56.447Z",
+      "createdAt": "2018-02-05T07:20:56.447Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "DiligenceDocument",
+      "object": {
+        "_id": "5a7802ab361a4800148e5f1a",
+        "updatedAt": "2018-02-20T18:47:46.606Z",
+        "createdAt": "2018-02-05T07:07:23.092Z",
+        "matter": "5a7800bc80366f00143507d7",
+        "author": "5a77feeb80366f00143507d6",
+        "name": "Test doc1.pdf",
+        "number": 2,
+        "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7802ab361a4800148e5f1a",
+        "__v": 0,
+        "assigned": [
+          "5a77feeb80366f00143507d6"
+        ],
+        "flags": [
+          "5a786e311b54380014932b9c",
+          "5a788f2a1b54380014932c20",
+          "5a78c5e961687b0014ea481f",
+          "5a8c6d523ba28e0014fcc120"
+        ],
+        "is_archived": false
+      },
+      "action": "assigned",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a7805af361a4800148e5f25",
+      "updatedAt": "2018-02-05T07:20:15.554Z",
+      "createdAt": "2018-02-05T07:20:15.554Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a780240361a4800148e5f16",
+        "username": "ianhantestmidnight",
+        "firm_values": null,
+        "id": "5a780240361a4800148e5f16"
+      },
+      "type": "DiligenceDocument",
+      "object": {
+        "_id": "5a780297361a4800148e5f19",
+        "updatedAt": "2018-02-05T07:20:15.546Z",
+        "createdAt": "2018-02-05T07:07:03.080Z",
+        "matter": "5a7800bc80366f00143507d7",
+        "author": "5a780240361a4800148e5f16",
+        "name": "Speeding Ticket.pdf",
+        "number": 1,
+        "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a780297361a4800148e5f19",
+        "__v": 0,
+        "assigned": [
+          "5a77feeb80366f00143507d6",
+          "5a77feeb80366f00143507d6"
+        ],
+        "flags": [
+          "5a7802d7361a4800148e5f1b"
+        ],
+        "is_archived": false
+      },
+      "action": "assigned",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6",
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a780578361a4800148e5f23",
+      "updatedAt": "2018-02-05T07:19:20.624Z",
+      "createdAt": "2018-02-05T07:19:20.624Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a780240361a4800148e5f16",
+        "username": "ianhantestmidnight",
+        "firm_values": null,
+        "id": "5a780240361a4800148e5f16"
+      },
+      "type": "DiligenceDocument",
+      "object": {
+        "_id": "5a780297361a4800148e5f19",
+        "updatedAt": "2018-02-05T07:20:15.546Z",
+        "createdAt": "2018-02-05T07:07:03.080Z",
+        "matter": "5a7800bc80366f00143507d7",
+        "author": "5a780240361a4800148e5f16",
+        "name": "Speeding Ticket.pdf",
+        "number": 1,
+        "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a780297361a4800148e5f19",
+        "__v": 0,
+        "assigned": [
+          "5a77feeb80366f00143507d6",
+          "5a77feeb80366f00143507d6"
+        ],
+        "flags": [
+          "5a7802d7361a4800148e5f1b"
+        ],
+        "is_archived": false
+      },
+      "action": "assigned",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a7802d7361a4800148e5f1d",
+      "updatedAt": "2018-02-05T07:08:07.465Z",
+      "createdAt": "2018-02-05T07:08:07.465Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a780240361a4800148e5f16",
+        "username": "ianhantestmidnight",
+        "firm_values": null,
+        "id": "5a780240361a4800148e5f16"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a7802d7361a4800148e5f1b",
+        "updatedAt": "2018-02-05T07:08:45.806Z",
+        "createdAt": "2018-02-05T07:08:07.422Z",
+        "author": "5a780240361a4800148e5f16",
+        "type": "flag",
+        "title": "Flag Me Baby",
+        "diligence_document": {
+          "_id": "5a780297361a4800148e5f19",
+          "updatedAt": "2018-02-05T07:20:15.546Z",
+          "createdAt": "2018-02-05T07:07:03.080Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a780240361a4800148e5f16",
+          "name": "Speeding Ticket.pdf",
+          "number": 1,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a780297361a4800148e5f19",
+          "__v": 0,
+          "assigned": [
+            "5a77feeb80366f00143507d6",
+            "5a77feeb80366f00143507d6"
+          ],
+          "flags": [
+            "5a7802d7361a4800148e5f1b"
+          ],
+          "is_archived": false
+        },
+        "number": 0,
+        "__v": 1,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 840,
+            "h": 1087
+          },
+          "circle": {
+            "x": 357,
+            "y": 306,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "Oh snap. This is a flag my playas.",
+        "comments": [
+          {
+            "author": "5a77feeb80366f00143507d6",
+            "_id": "5a7802fd361a4800148e5f1e",
+            "created": "2018-02-05T07:08:45.801Z",
+            "comment": "This is my response"
+          }
+        ],
+        "tagged_users": [
+          {
+            "tagged": "5a77feeb80366f00143507d6",
+            "by": "5a780240361a4800148e5f16",
+            "_id": "5a7802d7361a4800148e5f1c"
+          }
+        ]
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    },
+    {
+      "_id": "5a7800bd80366f00143507db",
+      "updatedAt": "2018-02-05T06:59:09.006Z",
+      "createdAt": "2018-02-05T06:59:09.006Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Matter",
+      "object": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "action": "created",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a77feeb80366f00143507d6"
+      ]
+    }
+*/
+  ]
+}

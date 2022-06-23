@@ -1,0 +1,174 @@
+.login {
+  font-family: GothamRounded;
+  padding: 95.5px 8.5%;
+  background-color: var(--white-three);
+  min-width: 450px;
+}
+
+.login-content {
+  background-color: var(--white-two);
+  box-shadow: 0 0 13.5px 0 rgba(199, 209, 213, 0.2);
+  display: flex;
+}
+
+.login-main {
+  position: relative;
+  max-width: 1201px;
+  max-height: 709px;
+  width: 47.84%;
+  background-color: var(--black);
+}
+
+.login-main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 0.65;
+}
+
+.dealwip-logo-container {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.dealwip-logo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.login-image {
+  background-image: url('../../../assets/images/layer-29/layer-29@3x.png'),url('../../../assets/images/layer-29/layer-29@2x.png'), url('../../../assets/images/layer-29/layer-29@3x.png');
+  background-position: center  ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.login-input-content {
+  width: 39.34%;
+  margin: auto;
+}
+
+.login-input-container {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.login-label {
+  height: auto;
+  font-family: GothamRounded;
+  font-weight: 300;
+  text-align: left;
+  color: #5b5b5b;
+  text-transform: uppercase;
+}
+
+.login-input {
+  padding-left: 7.84%;
+  height: 88.5px;
+  width: 92.16%;
+  display: table-cell;
+  background-color: var(--white-two);
+  border: solid 0.5px #e7ecf1;
+  font-family: GothamRounded;
+  font-weight: 300;
+  text-align: left;
+  color: var(--black-two);
+  &::placeholder {
+    height: 88.5px;
+    font-family: GothamRounded;
+    font-size: 19.5px;
+    font-weight: 300;
+    text-align: left;
+    color: var(--white-four);
+  }
+}
+
+.password-container {
+  display: flex;
+  padding-top: 32px;
+}
+
+.forgot-password-label {
+  margin-left: auto;
+  font-family: GothamRounded;
+  font-size: 15.7px;
+  font-weight: 300;
+  color: var(--blood-orange);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.login-button {
+  background-color: var(--blood-orange);
+  box-shadow: 0 0 calc((13.5/var(--ph))*100vh) 0 rgba(199, 209, 213, 0.2);
+  font-family: GothamRounded;
+  font-size: 22.3px;
+  font-weight: 500;
+  color: var(--white-two);
+  width: 100%;
+  padding: 18.75px 0;
+  margin: 40px 0 0 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.sign-up-container {
+  width: fit-content;
+  margin: 20px auto 0;
+  text-transform: uppercase;
+}
+
+.NO-ACCOUNT-SIGN-UP {
+  width: calc((199/var(--pw))*100vw);
+  height: calc((11.5/var(--ph))*100vh);
+  font-family: GothamRounded;
+  font-size: 15.7px;
+  font-weight: 300;
+  color: #5b5b5b;
+  margin: calc((23/var(--ph))*100vh) 0;
+  &.text-style-1 {
+    cursor: pointer;
+  }
+}
+
+.text-style-1 {
+  font-weight: bold;
+  color: var(--blood-orange);
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  width: calc((230/var(--pw))*100vw);
+  font-family: GothamRounded;
+  font-size: calc((19.5/var(--ph))*100vh);
+  font-weight: 300;
+  text-align: left;
+  color: var(--white-four);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  height: calc((18.5/var(--ph))*100vh);
+  font-family: GothamRounded;
+  font-size:calc((19.5/var(--ph))*100vh);
+  font-weight: 300;
+  text-align: left;
+  color: var(--white-four);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  height: calc((18.5/var(--ph))*100vh);
+  font-family: GothamRounded;
+  font-size: calc((19.5/var(--ph))*100vh);
+  font-weight: 300;
+  text-align: left;
+  color: var(--white-four);
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  height: calc((18.5/var(--ph))*100vh);
+  font-family: GothamRounded;
+  font-size: calc((19.5/var(--ph))*100vh);
+  font-weight: 300;
+  text-align: left;
+  color: var(--white-four);
+}

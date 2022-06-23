@@ -1,0 +1,2712 @@
+{
+  "account": {
+    "sMode": "debug",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "accounts[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "accounts/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "accounts",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "accountCreate": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "accountCreate",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "accounts": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "accounts",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "act": {
+    "sMode": "debug",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notifications/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notifications/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notifications/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notifications/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notification",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notification",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notification/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notification/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "actReadUser": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notifications/read/user",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notifications/read/user",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "actReadMatter": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notifications/read/matters",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notifications/read/matters",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "acts": {
+    "sMode": "debug",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notification",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notification",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "actsFltrMttr": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notifications/matters/one?matter_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "assets/data/noti/notiFltrMttrFlag.json",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "actsFltrUser": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notification/user/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "notification/user/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "actsMttrs": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "notifications/matters/all?user_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "assets/data/noti/notiMatters.json",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "activityTag": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/activityTags[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "activityTags[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/activityTags/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/activityTags/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "activityTags": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "api": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "ass": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "asss": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "auth0": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "airSembly",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/accounts",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "authUP": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "accountManagement",
+          "sTemplate": "account-management/root/login",
+          "sToken": null
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "assets/loginUP.json",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "binder": {
+    "sMode": "debug",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "binder/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "binder/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "binder/download/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "assets/data/noti/notiMatters.json",
+          "sToken": null
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "binder/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "binder",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binderAddAcc": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/binder/update/archive",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/binder/update/archive",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binderArch": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/binder/update/archive",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/binder/update/archive",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binderCov": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/binder/update/cover_sheet",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/binder/update/cover_sheet",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binderDocs": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/binder/update/selected_docs",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/binder/update/selected_docs",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binderFltrMatter": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/binder/matter",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/binder/matter",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binderFltrUser": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/binder/matter",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/binder/matter",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "binders": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "binder",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "binder",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "bootstrap": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "accountManagement",
+          "sTemplate": "account-management/authorize/user",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/bootstrap/Users",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "chat": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "close/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/get/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/get/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "chats": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/get",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/get",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "chatsFltrUser": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/user/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/user/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "chatsFltrUserInt": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/user/internal/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/user/internal/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "chatsFltrUserExt": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "conversation/user/external/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "conversation/user/external/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "check": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/checklist/delete/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/checklist/delete/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/checklist/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/checklist/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/checklist/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/checklist/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/checklist/update",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/checklist/update",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "checks": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "checklist",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "checklist",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "close": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "close/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "close/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "closing/form/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "closing/form/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "close/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "close",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "api/activityTags",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "closeDate": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/closing/form/date_marker/delete",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/closing/form/date_marker/delete",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/closing/form/date_marker/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/closing/form/date_marker/create",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "closeEx": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/closing/form/create/exhibit",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/closing/form/create/exhibit",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "closeItm": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/closing/form/create/item",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/closing/form/create/item",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "closes": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "close",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "close",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "deal": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/get?matter_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/get/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/info/update/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/info/update/[0]",
+          "sToken": "org"
+        }
+      }
+     }
+  },
+  "deals": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsFltrUser": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/user?uid=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/user/?uid=[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsAddTerm": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/update/term_sheet",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/update/term_sheet",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsAddChart": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/update/struct_chart",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/update/struct_chart",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsDelUser": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/user/remove",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/user/remove",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsUserFin": {
+    "sMode": "debug",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/user/completed/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/user/completed/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsFirm": {
+    "sMode": "debug",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/get/name_firm_type?matter_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "assets/data/deals/dealsFirm.json",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsFldr": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/diligence/create/folder",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/diligence/create/folder",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dealsAddFldr": {
+    "sMode": "debug",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/diligence/folder/add_file_to_diligence_folder",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/diligence/folder/add_file_to_diligence_folder",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dil": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "doc/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/doc/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence/doc/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/create_doc/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence/create_doc/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dilArch": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/docs/archive",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence/docs/archive",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dils": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dilSetRead": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/docs/set_read",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence/docs/set_read",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dilsFltrMttr": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/docs/matter?matter_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence/docs/matter",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "dilUser": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "diligence/docs/assign",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "diligence/docs/assign",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "doc": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docPull": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/download/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/download/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docDiff": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/diff/download_pdf/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/diff/download_pdf/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docHtml": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/html/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/html/[0]",
+          "sToken": "org"
+        },
+        "post": {
+          "live": {
+            "sService": "dealwip",
+            "sTemplate": "document/create/html",
+            "sToken": "org"
+          },
+          "debug": {
+            "sService": "local",
+            "sTemplate": "document/create/html",
+            "sToken": "org"
+          }
+        }
+      }
+    }
+  },
+  "docPdf": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "download/pdf_from_html/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "download/pdf_from_html/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docs": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docSave": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/save/edits",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/save/edits",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docSetFinal": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/update/finalize/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/update/finalize/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docSetPub": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/update/published/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/update/published/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "docPush": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "document/upload/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "document/upload/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "firm": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/get/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/get/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "firmAss": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/associate/add",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/associate/add",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "firmAsss": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/associates",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/associates",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "firms": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/all",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/all",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "firmSearch": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "firm/search/name",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "firm/search/name",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "flag": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "flags": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "flagPatchComment": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/update/add_comment/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/update/add_comment/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "flagPatchResolv": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/update/resolved/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/update/resolved/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "flagPatchTag": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/update/add_tagged/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/update/add_tagged/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "flagDil": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "flags/dil_doc/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "flags/dil_doc/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "img": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/find/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/find/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "imgs": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/find/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/find/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "inv": {
+    "sMode": "live",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/find/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/find/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/create",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/create",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "invAccept": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/accept",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/accept",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "invFirm": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/firm_information/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/firm_information/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "invFltrMatter": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "matter/invites/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "matter/invites/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "invUser": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/create/existing_user",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/create/existing_user",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "invRem": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite/send_reminder",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite/send_reminder",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "invs": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "invite",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "invite",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "mdl": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Users",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "mdls": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Users",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "metric": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Metric",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "metrics": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Metrics",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "model": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Model",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "msg": {
+    "sMode": "debug",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "message/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "message/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "messages/conversation/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "messages/conversation/[0]",
+          "sToken": "org"
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "message",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "message",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "message/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "message/[0]",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "msgs": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "message",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "message",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "msgSend": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "message/send",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "message/send",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "org": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Org",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "pwdCheck": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/authentication/check",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/authentication/check",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "pwdForgot": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/password/forgot",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/password/forgot",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "pwdReset": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/password/reset",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/password/reset",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "redirect": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/redirect",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "role": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "accountManagement",
+          "sTemplate": "account-management/bootstrap/ServiceProviders/[0]/Username/[1]",
+          "sToken": "bootstrap"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "roles[0]",
+          "sToken": null
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "accountManagement",
+          "sTemplate": "account-management/ServiceProviders/[0]/accounts/[1]/users",
+          "sToken": "bootstrap"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "roles",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "signatures": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "authentication/signin",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "authentication/signin",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "signin": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "authentication/signin",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "authentication/signin",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "signinLinkedin": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/authentication/linkedin",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/authentication/linkedin",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "signinLinkedinCb": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/authentication/linkedin/callback",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/authentication/linkedin/callback",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "signout": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "authentication/signout",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "authentication/signout",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "signup": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "authentication/signup",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "authentication/signup",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "signupAss": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "authentication/associate/signup",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "authentication/associate/signup",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "srch": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "search/results/user?user_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "assets/data/srch/srchUser.json",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "srchs": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "search/results/user?user_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "api/Users",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "user": {
+    "sMode": "debug",
+    "actions": {
+      "delete": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user/[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "user/[0]",
+          "sToken": "org"
+        }
+      },
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user/get?user_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "./assets/data/user/user.json",
+          "sToken": null
+        }
+      },
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "user",
+          "sToken": "org"
+        }
+      },
+      "patch": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "user",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userAddAcc": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user/account/info/add",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "user/account/info/add",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userAddEd": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/users/[0]/add_education",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/users/[0]/add_education",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userDelMatters": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/user/remove_matters",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/user/remove_matters",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userDirExt": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/user/directory/external",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/user/directory/external",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userDirFull": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/user/directory/full",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/user/directory/full",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userDirInt": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/user/directory/internal",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/user/directory/internal",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userFltrEmail": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/user/find/email",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/user/find/email",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userResume": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "/users/[0]/resume",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "/users/[0]/resume",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "users": {
+    "sMode": "debug",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": null,
+          "sTemplate": "./assets/data/user/users.json",
+          "sToken": null
+        }
+      }
+    }
+  },
+  "userSearch": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "users/search/user_id=[0]",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "users/search",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userSetNameIs": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "exists/username",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "exists/username",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userSetEmailIs": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "exists/email",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "exists/email",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "userSetPwd": {
+    "sMode": "live",
+    "actions": {
+      "post": {
+        "live": {
+          "sService": "dealwip",
+          "sTemplate": "user/set_password",
+          "sToken": "org"
+        },
+        "debug": {
+          "sService": "local",
+          "sTemplate": "user/set_password",
+          "sToken": "org"
+        }
+      }
+    }
+  },
+  "swagger": {
+    "sMode": "live",
+    "actions": {
+      "get": {
+        "live": {
+          "sService": "",
+          "sTemplate": "assets/config/mdls.json",
+          "sToken": null
+        },
+        "debug": {
+          "sService": "serviceProvider",
+          "sTemplate": "api/Users",
+          "sToken": null
+        }
+      }
+    }
+  }
+}

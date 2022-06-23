@@ -1,0 +1,631 @@
+[
+    {
+      "_id": "5a7800bc80366f00143507d7",
+      "updatedAt": "2018-02-08T15:24:59.331Z",
+      "createdAt": "2018-02-05T06:59:08.073Z",
+      "deal_type": "deals",
+      "primary": "5a77feeb80366f00143507d6",
+      "firm": {
+        "_id": "5a77fdb880366f00143507cc",
+        "name": "Team Beta",
+        "logo": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "name": {
+          "last": "Webster",
+          "first": "Sumner"
+        },
+        "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "General Corporate",
+      "name": "Matter Alpha",
+      "__v": 3,
+      "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+      "diligence_directory": [],
+      "completed": false,
+      "closing_checklist": [
+        "5a780188361a4800148e5f13",
+        "5a7804ae361a4800148e5f21",
+        "5a7808ce361a4800148e5f30",
+        "5a7a37e69bbb050014cbb082",
+        "5a7a74ab9bbb050014cbb097",
+        "5a7a89079bbb050014cbb09d",
+        "5a7a896d9bbb050014cbb0a0",
+        "5a7c6bcb1fd1b800144ee79b"
+      ],
+      "transaction": {
+        "matter_type": "complex_transaction",
+        "govt_approval_req": false,
+        "est_purchase_price": 0
+      },
+      "teams": [
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a7800bc80366f00143507da"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a7800bd80366f00143507dd"
+        },
+        {
+          "member": {
+            "_id": "5a780240361a4800148e5f16",
+            "username": "ianhantestmidnight",
+            "name": {
+              "last": "Karate",
+              "first": "Johnny"
+            },
+            "profile_picture": "5a780240361a4800148e5f16/profile_picture",
+            "firm_values": null,
+            "id": "5a780240361a4800148e5f16"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a780240361a4800148e5f17"
+        },
+        {
+          "member": {
+            "_id": "5a780f644133940014dc7d1c",
+            "username": "michaelscott",
+            "name": {
+              "last": "Scott",
+              "first": "Michael"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a780f644133940014dc7d1c"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a780f644133940014dc7d1d"
+        },
+        {
+          "member": {
+            "_id": "5a786ded1b54380014932b98",
+            "username": "jimhalpert",
+            "name": {
+              "last": "Halpert",
+              "first": "Jim"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a786ded1b54380014932b98"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a786ded1b54380014932b99"
+        },
+        {
+          "member": {
+            "_id": "5a7880dd1b54380014932be9",
+            "username": "Tunji",
+            "name": {
+              "last": "Williams",
+              "first": "Tunji"
+            },
+            "profile_picture": "5a7880dd1b54380014932be9/profile_picture",
+            "firm_values": null,
+            "id": "5a7880dd1b54380014932be9"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a788cf21b54380014932c11"
+        },
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a788cfb1b54380014932c16"
+        },
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a788cfb1b54380014932c17"
+        }
+      ],
+      "date": {
+        "end": "2018-02-05T06:59:08.070Z",
+        "start": "2018-02-05T06:59:08.070Z"
+      },
+      "firms": [
+        "59ffb4b68a422333c8a4a965"
+      ],
+      "created": "2018-02-05T06:59:08.070Z"
+    },
+    {
+      "_id": "5a7d4b2ce134c50014c5bb6b",
+      "updatedAt": "2018-02-15T15:36:13.676Z",
+      "createdAt": "2018-02-09T07:18:04.973Z",
+      "deal_type": "deals",
+      "primary": "5a77feeb80366f00143507d6",
+      "firm": {
+        "_id": "5a77fdb880366f00143507cc",
+        "name": "Team Beta",
+        "logo": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "name": {
+          "last": "Webster",
+          "first": "Sumner"
+        },
+        "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "General Corporate",
+      "name": "Testing Document Drafting",
+      "__v": 0,
+      "diligence_directory": [],
+      "completed": false,
+      "closing_checklist": [
+        "5a7d4b4be134c50014c5bb74",
+        "5a7d4bcfe134c50014c5bb77",
+        "5a85a8eda062b1001432f1dc"
+      ],
+      "transaction": {
+        "matter_type": "complex_transaction",
+        "govt_approval_req": false,
+        "est_purchase_price": 0
+      },
+      "teams": [
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a7d4b2de134c50014c5bb6e"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a7d4b2de134c50014c5bb6f"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a7d4b2ee134c50014c5bb73"
+        }
+      ],
+      "date": {
+        "end": "2018-02-09T07:18:04.967Z",
+        "start": "2018-02-09T07:18:04.967Z"
+      },
+      "firms": [
+        "59ffb4b68a422333c8a4a965"
+      ],
+      "created": "2018-02-09T07:18:04.967Z"
+    },
+    {
+      "_id": "5a89e473379ec200140f39ea",
+      "updatedAt": "2018-02-18T20:40:26.523Z",
+      "createdAt": "2018-02-18T20:39:15.183Z",
+      "deal_type": "deals",
+      "primary": "5a77feeb80366f00143507d6",
+      "firm": {
+        "_id": "5a77fdb880366f00143507cc",
+        "name": "Team Beta",
+        "logo": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "name": {
+          "last": "Webster",
+          "first": "Sumner"
+        },
+        "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "General Corporate",
+      "name": "Feb 11 test",
+      "__v": 0,
+      "diligence_directory": [],
+      "completed": false,
+      "closing_checklist": [
+        "5a89e4ba379ec200140f39f1"
+      ],
+      "transaction": {
+        "matter_type": "complex_transaction",
+        "govt_approval_req": false,
+        "est_purchase_price": 0
+      },
+      "teams": [
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a89e473379ec200140f39ec"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a89e474379ec200140f39ef"
+        }
+      ],
+      "date": {
+        "end": "2018-02-18T20:39:15.174Z",
+        "start": "2018-02-18T20:39:15.174Z"
+      },
+      "firms": [],
+      "created": "2018-02-18T20:39:15.174Z"
+    },
+    {
+      "_id": "5a8b822bd7fcda001409632f",
+      "updatedAt": "2018-02-25T22:05:59.945Z",
+      "createdAt": "2018-02-20T02:04:27.908Z",
+      "deal_type": "deals",
+      "primary": "5a7886ca1b54380014932bee",
+      "firm": {
+        "_id": "59ffb4b68a422333c8a4a965",
+        "name": "Dealwip",
+        "logo": "https://pbs.twimg.com/profile_images/896728922817167361/aJywTy7q.jpg"
+      },
+      "author": {
+        "_id": "5a7886ca1b54380014932bee",
+        "username": "ANord",
+        "name": {
+          "last": "Nordholm",
+          "first": "Alex"
+        },
+        "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+        "firm_values": null,
+        "id": "5a7886ca1b54380014932bee"
+      },
+      "type": "General Corporate",
+      "name": "Alpha Test - Zach Croft",
+      "__v": 4,
+      "term_sheet": "https://s3.amazonaws.com/dealwip/5a8b822bd7fcda001409632f/term_sheet.pdf",
+      "diligence_directory": [],
+      "completed": false,
+      "closing_checklist": [
+        "5a931e4654a7570014cd9cb2",
+        "5a93221054a7570014cd9cbe",
+        "5a932b4a54a7570014cd9cf1"
+      ],
+      "transaction": {
+        "matter_type": "complex_transaction",
+        "govt_approval_req": false,
+        "est_purchase_price": 0
+      },
+      "teams": [
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "5a78b46261687b0014ea4799",
+          "_id": "5a8b822cd7fcda0014096333"
+        },
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a8b822cd7fcda0014096334"
+        },
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "59ffb4b68a422333c8a4a965",
+          "_id": "5a8b822ed7fcda0014096338"
+        },
+        {
+          "member": {
+            "_id": "5a8b824ed7fcda0014096339",
+            "username": "zacharyrcroft",
+            "name": {
+              "last": "Croft",
+              "first": "Zachary"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a8b824ed7fcda0014096339"
+          },
+          "team": "5a78b46261687b0014ea4799",
+          "_id": "5a8b824ed7fcda001409633a"
+        },
+        {
+          "member": {
+            "_id": "5a68885931a1530f1a213c53",
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a68885931a1530f1a213c53"
+          },
+          "team": "5a78b46261687b0014ea4799",
+          "_id": "5a9332b754a7570014cd9cfd"
+        },
+        {
+          "member": {
+            "_id": "5a77a14929fcef002e45a944",
+            "username": "sw",
+            "name": {
+              "last": "Webby",
+              "first": "Sumner"
+            },
+            "profile_picture": "5a77a14929fcef002e45a944/profile_picture",
+            "firm_values": null,
+            "id": "5a77a14929fcef002e45a944"
+          },
+          "team": "5a78b46261687b0014ea4799",
+          "_id": "5a9332d454a7570014cd9d00"
+        },
+        {
+          "member": {
+            "_id": "5a772a3acd9cd8002e8493fa",
+            "username": "sumner",
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a772a3acd9cd8002e8493fa"
+          },
+          "team": "5a78b46261687b0014ea4799",
+          "_id": "5a93332054a7570014cd9d03"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a78b46261687b0014ea4799",
+          "_id": "5a93334754a7570014cd9d06"
+        }
+      ],
+      "date": {
+        "end": "2018-02-20T02:04:27.898Z",
+        "start": "2018-02-20T02:04:27.898Z"
+      },
+      "firms": [
+        "5a78b46261687b0014ea4799"
+      ],
+      "created": "2018-02-20T02:04:27.897Z"
+    },
+    {
+      "_id": "5a974c6e2f6bf60014e4f40a",
+      "updatedAt": "2018-03-03T05:47:54.057Z",
+      "createdAt": "2018-03-01T00:42:22.887Z",
+      "deal_type": "general_commercial",
+      "primary": "5a77feeb80366f00143507d6",
+      "firm": {
+        "_id": "5a77fdb880366f00143507cc",
+        "name": "Team Beta",
+        "logo": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png"
+      },
+      "author": {
+        "_id": "5a77feeb80366f00143507d6",
+        "username": "Ironforge4",
+        "name": {
+          "last": "Webster",
+          "first": "Sumner"
+        },
+        "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+        "firm_values": null,
+        "id": "5a77feeb80366f00143507d6"
+      },
+      "type": "Commercial",
+      "name": "DealWIP_External",
+      "__v": 3,
+      "diligence_directory": [],
+      "completed": false,
+      "closing_checklist": [
+        "5a9a370ae727fb002e98b7ff"
+      ],
+      "transaction": {
+        "matter_type": "complex_transaction",
+        "govt_approval_req": false,
+        "est_purchase_price": 0
+      },
+      "teams": [
+        {
+          "member": {
+            "_id": "5a7886ca1b54380014932bee",
+            "username": "ANord",
+            "name": {
+              "last": "Nordholm",
+              "first": "Alex"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a7886ca1b54380014932bee"
+          },
+          "team": "5a787e231b54380014932bd2",
+          "_id": "5a974c6f2f6bf60014e4f40d"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a974c6f2f6bf60014e4f40e"
+        },
+        {
+          "member": {
+            "_id": "5a77feeb80366f00143507d6",
+            "username": "Ironforge4",
+            "name": {
+              "last": "Webster",
+              "first": "Sumner"
+            },
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a77feeb80366f00143507d6"
+          },
+          "team": "5a77fdb880366f00143507cc",
+          "_id": "5a974c712f6bf60014e4f412"
+        },
+        {
+          "member": {
+            "_id": "5a7880dd1b54380014932be9",
+            "username": "Tunji",
+            "name": {
+              "last": "Williams",
+              "first": "Tunji"
+            },
+            "profile_picture": "5a7880dd1b54380014932be9/profile_picture",
+            "firm_values": null,
+            "id": "5a7880dd1b54380014932be9"
+          },
+          "team": "5a787e231b54380014932bd2",
+          "_id": "5a974d2e2f6bf60014e4f415"
+        },
+        {
+          "member": {
+            "_id": "5a78b8b861687b0014ea47ab",
+            "username": "jpcbreslin",
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a78b8b861687b0014ea47ab"
+          },
+          "team": "5a787e231b54380014932bd2",
+          "_id": "5a974d422f6bf60014e4f41a"
+        },
+        {
+          "member": {
+            "_id": "5a78b8b861687b0014ea47ab",
+            "username": "jpcbreslin",
+            "profile_picture": "https://www.lanecc.edu/sites/default/files/disability/blank_person.png",
+            "firm_values": null,
+            "id": "5a78b8b861687b0014ea47ab"
+          },
+          "team": "5a787e231b54380014932bd2",
+          "_id": "5a974d422f6bf60014e4f41b"
+        }
+      ],
+      "date": {
+        "end": "2018-03-01T00:42:22.869Z",
+        "start": "2018-03-01T00:42:22.869Z"
+      },
+      "firms": [
+        "5a787e231b54380014932bd2"
+      ],
+      "created": "2018-03-01T00:42:22.868Z"
+    }
+  ]

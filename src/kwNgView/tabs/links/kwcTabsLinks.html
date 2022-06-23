@@ -1,0 +1,20 @@
+<div
+    *ngIf="view"
+    [class]="sStyl"
+    [id]="sId">
+
+    <div>
+        {{sComp}}
+    </div>
+
+
+    <kwc-tabs-Link
+        *ngFor="let link of links"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="link">
+
+    </kwc-tabs-Link>
+
+</div>

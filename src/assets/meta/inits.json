@@ -1,0 +1,394 @@
+{
+	"act": {},
+	"binder": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"chat":{
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"check":{
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"close":{
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"dash":{
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"deal": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"deals": {},
+	"dil": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"doc": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"draft": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"event": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+    "feed": {
+        "0": {
+            "notifications": {
+                "_id": { },
+                "firm": { },
+                "teams": { },
+                "sEmpty": "No Active DealsLink"
+            }
+        }
+    },
+	"firm": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"flag": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"img": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"info": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"inv": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"matter": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"msg": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"msgs": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"opts": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+    "play": {},
+    "playNav": {},
+	"roster": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"signin": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"srch": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"struct": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"tasks": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"term": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"user": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	},
+	"war": {
+		"opts": {
+			"bAll": false,
+			"bCalendar": true,
+			"bPeople": false,
+			"bDocs": false,
+			"bDealsLink": true,
+			"bMsgs": true,
+			"bLinks": false,
+			"bClients": false,
+			"bChks": true,
+			"bNotis": true
+		}
+	}
+}

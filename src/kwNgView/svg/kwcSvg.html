@@ -1,0 +1,17 @@
+<div
+    *ngIf="view"
+    [class]="sStyl"
+    [id]="sId">
+
+    <div>
+        {{sComp}}
+    </div>
+
+    <svg-icon
+        *ngIf="sPath"
+        [src]="sPath">
+
+    </svg-icon>
+
+</div>
+

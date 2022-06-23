@@ -1,0 +1,552 @@
+PATRICK LEE DOOLEY, B.A.SC.
+Ottawa, ON, K2L 2V8
+(613) 986-8678
+pjldooley@gmail.com
+www.linkedin.com/in/pjldooley
+Secret Security Clearance
+
+FULL STACK ARCHITECT
+Mr. Dooley excels in helping software companies improve their software development productivity.
+
+Mr. Dooley has extensive experience in building and simplifying software systems; particularly Full Stack systems.
+His list of achievements include:
+Managing a team to modernize Canada Post’s DIA and Dispatch applications (AngularJS/Spring.)
+Managing a team to create DND’s internal MOS (Military Operational Scenario) application (kWjs/PHP.)
+Managing a team to create iTKunst’s kunstWerkJS (kWjs) Front End JavaScript Framework (jQuery.)
+Creating AAFC’s AgPal (Agriculture Policies and Licenses) Search application. (kWjs/Spring.)
+Creating AirVM’s AirSembly IaaS (Angular2/CodeIgniter.)
+Modernizing bitHeads brainCloud BaaS (Angular2/Spring.)
+Modernizing HCNs Navigator system (Angular4/Flask.)
+
+Languages 			    JavaScript, TypeScript, Python, PHP, C++, C, CSS3, Groovy, Java, HTML5
+Client Frameworks 		AngularJS, Angular2, Angular4, React, kWjs, Android
+Client Libraries 		Relay, RxJS, Redux, Redux Observables, AG Grid
+Server Frameworks 		RabbitMQ, Spring Boot, J2EE, Struts, JSP, JMS, Yii, iText, Express, Hibernate, Flask
+Comp Frameworks 		Angular Material Design, Bootstrap, Kendo UI, Dojo, Angular-ui
+Technologies 		    AJAX, GraphQL, OOP, SQL, PL/SQL, MQTT, XSLT, XML, SOA, REST
+Platforms 			    AWS, Node.js, Linux, Mac OS, WebLogic, Apache, Apache Tomcat, IIS, SAAS
+RDBMs 			        Hadoop, H2, MySQL, Oracle, MS SQL Server, PostgresSQL, IDOL, SOLR, ElasticSearch
+Tools 				    Grunt, Gulp, npm, bower, Webpack, Jira, Confluence, Agile, Jenkins, Maven
+Unit Test Tools 		Jasmine, Karma, Protractor, JUnit,
+Editors 			    Intellij IDEA, Eclipse, Beyond Compare, Visual Studio, Android Studio
+SCMs 				    Git, SubVersion, CVS, BitBucket
+
+University of Waterloo, Waterloo, ON
+Bachelor of Applied Science
+September 1984 - April 1989
+Systems Design Engineering
+
+
+PROJECT # 1
+Hotel Communication Network, Ottawa, ON
+Architect/Manager
+Sep 2017 – Present (2 Months)
+Project Description:
+Navigator
+Navigator is a powerful platform for the hotelier to market to and service their guests.
+
+Led the dockerization of current system components.
+Provided and initiated strategy for modernizing architecture.
+Initiated creation of the CI/CD system.
+Managed new feature development.
+Mentored/Managed developers.
+Aided in the troubleshooting and debugging of technical issues.
+Technologies Used:
+
+TypeScript, Webpack, Angular4, kWng, Intellij Idea, babel, Git, Agile, AWS, NodeJS, AG Grid, Docker, BitBucket,
+Jenkins, postgresSql, ElasticSearch, Kafka, Samza, Flask, Python, Android, Android Studio, Java, Jenymotion, Gradle.
+
+
+PROJECT # 2
+iTKunst corporation (for Open Source), Ottawa, ON
+CEO/Architect/Developer
+Mar 2017 – August (6 Months)
+Project Description:
+kunstWerkNg (kWng) & kunstWerkReact (kWr)
+kWng and kWr simplifies and accelerates SPA development for Angular4 and React.JS
+
+Took results of work from AirVM to create libraries with Angular4 and React.JS
+Generate SRED reports;
+Performed Market Analysis;
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility of proposed libraries, and for the development of functional and system design specifications
+Designed object models, methods and procedures for proposed libraries
+Developed, tested and implemented libraries;
+Controlled and performed systems testing libraries ;
+Troubleshot and debugged technical issues;
+
+Technologies Used:
+TypeScript, Webpack, React.JS, Angular4, Visual Studio, babel, Git, Agile, AWS, NodeJS, AG Grid, Docker, BitBucket,
+Jenkins, MySQL, Hadoop, ElasticSearch
+
+
+PROJECT # 3
+AirVM, Ottawa, ON
+Full Stack Architect/Developer
+Nov 2016 – March 2017 (5 Months)
+Project Description:
+AirSembly Infrastructure as a Service (IaaS)
+AirSembly is a cloud based product designed to help providers of IaaS
+
+Created library to simplify and accelerate development with Angular2;
+Managed Back End development;
+Incorporated Back End technologies - strongloop, Auth0, swagger;
+Provided extensive feedback to CTO in order to ensure timelines met.
+Participated in SCRUM meetings;
+Provided UI/UX expertise;
+Designed and developed APIs
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility of AirSembly, and for the development of functional and system design specifications (4.1);
+Designed object models, methods and procedures for AirSembly (4.2);
+Provided recommendations on the most effective approach to integrate the services with AirVM’s SOA infrastructure (4.3);
+Developed, tested and implemented AirSembly (4.5);
+Produced data input forms, system code, XML data files, system procedures and technical documentation such as change control document, technical procedures and user / technical manuals for AirSembly (4.6);
+Controlled and performed systems testing for AirSembly (4.7);
+Troubleshot and debugged technical issues (4.8);
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to AirVM’s Development Team (4.9);
+Liaised with CTO, CEO and Project manager to move the project through the various stages in the Software Development Lifecycle (SDLC) (4.10);
+Reported status to the CTO as requested (4.11);
+Adheres to John Papa’s coding style.
+
+Technologies Used:
+ThemeForest’s Fuse Admin Template, Angular2, Angular Material Design, NodeJS, Express, PHP, CodeIgniter, HTML5,
+CSS3, REST, JavaScript, AJAX, JSON, Intellij IDEA, Oracle, Gulp, Karma, Hadoop, ElasticSearch, Protractor, Jasmine,
+Jenkins, BitBucket, Agile, swagger, strongloop, Auth0, AWS, AG Grid, Docker
+
+
+PROJECT # 4
+bitHeads, Ottawa, ON
+Full Stack Architect/Developer
+June 2016 – October 2016 (3 Months)
+Project Description:
+brainCloud Backend as a Service (BaaS)
+brainCloud is a ready-made, cloud-based backend for the development of games, apps and things.
+
+Participated in SCRUM meetings;
+Resolved MongoDB performance and downtime issues;
+Provided UI/UX expertise;
+Initiated and directed effort to modernize and stabilize application;
+Introduced coding standards, peer reviews and defensive coding techniques;
+Designed and developed APIs
+Provided libraries and strategies to simplify and accelerate development;
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for modernizing brainCloud, and for the development of functional and system design specifications
+Designed object models, methods and procedures for brainCloud
+Provided recommendations on the most effective approach to integrate the modernized version with bitHead’s SOA infrastructure;
+Worked closely with VP to develop services that are flexible, high-performance, reliable and compatible with bitHead’s SOA infrastructure;
+Developed, tested and implemented brainCloud’s new architecture;
+Produce data input forms, system code, XML data files, system procedures and technical documentation such as change control document, technical procedures and user / technical manuals for brainCloud;
+Controlled and performed systems testing for brainCloud;
+Troubleshot and debugged technical issues;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to developers;
+Liaised with VP to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to the VP as requested;
+
+Technologies Used:
+Angular2, BootStrap, J2EE, Java, JSP, JMS, Spring Boot, JUnit, iText, Hadoop, ElasticSearch, MySQL, HTML5, CSS3,
+REST, JavaScript, jQuery, AJAX, JSON, XML, Intellij IDEA, Eclipse, Apache, BitBucket, Agile, Maven, Jenkins,
+Hibernate, AWS, NodeJS, AG Grid, Docker
+
+
+PROJECT # 5
+Deloitte (for Canada Post), Ottawa, ON
+Full Stack Manager/Architect/Developer
+June 2015 – June 2016 (12 Months)
+Project Description:
+DIA & Dispatch
+DIA and Despatch are Canada Post’s Route Management Systems
+
+Scheduled and prioritized tasks;
+Ran SCRUM meetings;
+Managed two teams, one offshore with 12 developers/testers and 1 onshore with 2 developers.
+Participated in the development of DIA due to the complexity of the application.
+Provided libraries and strategies to simplify and accelerate development;
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for modernizing DIA and Dispatch, and for the development of functional and system design specifications;
+Designed and developed APIs
+Designed object models, methods and procedures for DIA and Dispatch;
+Provided recommendations on the most effective approach to integrate the modernized versions of DIA & Dispatch with InnovaPost’s SOA infrastructure;
+Oversaw development of services that are flexible, high-performance, reliable and compatible with InnovaPost’s SOA infrastructure;
+Developed, tested and implemented DIA’s new architecture;
+Oversaw Development, testing and implementation of Dispatch’s new architecture;
+Oversaw creation of data input forms, system code, XML data files, system procedures and technical documentation such as change control document, technical procedures and user / technical manuals for DIA and Dispatch;
+Oversaw systems testing for DIA and Dispatch;
+Troubleshot and debugged technical issues for DIA;
+Oversaw troubleshooting and debugging technical issues for Dispatch;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to InnovaPost;
+Liaised with Project Manager and InnovaPost to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to the Project Manager and InnovaPost as requested;
+
+Technologies Used:
+AngularJS, BootStrap, Kendo UI, Spring Boot, J2EE, Java, Grails, Groovy, Oracle 11g DB, Apache, PL/SQL, Angular-ui,
+PHP, SQL, Oracle, SOA, HTML5, CSS, REST, Hadoop, ElasticSearch, JavaScript, jQuery, AJAX, JSON, Eclipse, BitBucket,
+Intellij IDEA, Jasmine, Karma, Protractor, JUnit, MQTT, iText, Agile, Jenkins, NodeJS, Bower, NPM, Agile, Maven,
+Hibernate, AWS, RabbitMQ, AG Grid, Docker
+
+
+PROJECT # 6
+SmartND, Ottawa, ON
+Full Stack Developer
+April 2015 – June 2015 (3 Months)
+Project Description:
+www.smartnd.ca
+smartND is a web-based EMR (Electronic Medical Record) systems designed to help naturopath doctors
+
+Participated in SCRUM meetings;
+Provided expertise on improving development processes - particularly through the use of modern tools
+and best coding practises (AngularJS, Laravel, Angular-ui);
+Provided UI/UX expertise;
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+extending SmartND, and for the development of functional and system design specifications;
+Designed and developed APIs
+Designed object models, methods and procedures for SmartND;
+Provided recommendations on the most effective approach to integrate new SmartND functionality with current SOA
+infrastructure;
+Developed of services that are flexible, high-performance, reliable and compatible with current SOA infrastructure;
+Developed, tested and implemented new functionality;
+Oversaw creation of data input forms, system code, XML data files, system procedures and technical documentation
+such as change control document, technical procedures and user / technical manuals for SmartND;
+Controlled and performed systems testing for SmartND;
+Troubleshot and debugged technical issues for SmartND;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to development
+team and management;
+Liaised with CEO to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to the CEO as requested;
+Technologies Used:
+AngularJS, BootStrap, Angular-ui, PHP, SQL, MySQL, SOA, HTML5, CSS, REST, JavaScript, jQuery, AJAX, JSON,
+XAMP, Eclipse, Apache, Laravel, BitBucket, Agile, NodeJS, AG Grid, Jenkins
+
+
+PROJECT # 7
+Agriculture and Agri-food Canada, Ottawa, ON
+Full Stack Architect
+October 2011 – April 2015 (38 months)
+Project Description:
+AgPal & AgPalAdmin
+AgPal is a web-based discovery tool designed to help producers and others in the agriculture and agri-business
+sector find the federal, provincial and territorial programs and services that specifically apply to them.
+AgPalAdmin is a web-based administration tool designed to help authors and administrators view and report on AgPal
+data.
+
+Participated in SCRUM meetings;
+Initially interfaced with Autonomy’s IDOL search engine; then upgraded to SOLR;
+Provided UI/UX expertise;
+Was sole technical expert;
+Designed and developed APIs
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for building AgPal and AgPalAdmin, and for the development of functional and system design specifications;
+Designed object models, methods and procedures for both Systems;
+Provided recommendations on the most effective approach to integrate new SmartND functionality with IDOL and SOLR search engine servers;
+Developed services that are flexible, high-performance, reliable and compatible with current AAFC infrastructure;
+Developed, tested and implemented AgPal and AgPalAdmin;
+Created data input forms, system code, XML data files, system procedures and technical documentation such as change control document, technical procedures and user / technical manuals for AAFC;
+Controlled and performed systems testing AgPal an AgPalAdmin;
+Troubleshot and debugged technical issues for AgPal an AgPalAdmin;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to AAFC;
+Liaised with AAFC to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to the AAFC as requested;
+
+Technologies Used:
+Java, Spring Boot, J2EE, SOA, HTML5, CSS, JSP, JMS, WCAG, REST, WET, XML, SQL, PL/SQL, JavaScript, jQuery, kWjs,
+require.js, iText, AJAX, JSON, IDOL, SOLR, Oracle, Eclipse, WebStorm, JUnit, Apache, BitBucket, Dojo, Agile, Jenkins,
+Maven, Hibernate, NodeJS, AG Grid, Docker
+
+
+PROJECT # 8
+Ottawa Pool Builders, Ottawa, ON
+Full Stack Developer
+November 2014 – January 2015 (2 months)
+Project Description:
+Created website for local company
+
+Developed, tested and implemented website;
+Controlled and performed systems testing on website;
+Troubleshot and debugged technical issues for website;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to Ottawa
+Pool Builders (OPB);
+Liaised with OPB to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to the OPB as requested;
+
+Technologies Used:
+PHP, SOA, MySQL, HTML, CSS, REST, JavaScript, jQuery, kWjs, require.js, AJAX, JSON, Eclipse, WebStorm, Agile
+
+
+PROJECT # 9
+BlackBerry Corporation, Ottawa, ON
+Front End Developer
+June 2014 – September 2014 (3 months)
+Project Description:
+Blend Desktop Application
+Blend allows blackberry users to manage Mail/SMS/BBM on their desktop.
+
+Participated in SCRUM meetings;
+Provided recommendations on the most effective approach to integrate new Blend functionality with BlackBerry
+services;
+Assisted the team in stabilization efforts prior to release;
+Developed, tested and implemented Blend functionality;
+Created data input forms, system code, XML data files, system procedures and technical documentation such as
+change control document, technical procedures and user / technical manuals for Blend modifications;
+Controlled and performed systems testing on Blend;
+Troubleshot and debugged technical issues for Blend;
+Liaised with BlackBerry to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to BlackBerry as requested;
+
+Technologies Used:
+AngularJS, SOA, HTML5, CSS3, REST, JavaScript, AJAX, JSON, Git, Eclipse, Agile, Oracle
+
+
+PROJECT # 10
+Health Canada, Ottawa, ON
+Web Developer
+November 2012 – March 2013 (5 months)
+Project Description:
+PathFinder
+PathFinder is the departmental enterprise architecture being developed by the Information Management Services
+Directorate (IMSD). Its aim is to provide a framework of common components and services.
+Participated in SCRUM meetings;
+Provided strategy to convert the traditional Web application to an SPA;
+Provided UI/UX expertise;
+Designed and developed APIs
+Recommended to management the usage of modern open source JavaScript widgets;
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building PathFinder, and for the development of functional and system design specifications;
+Designed object models, methods and procedures for PathFinder;
+Provided recommendations on the most effective approach to integrate PathFinder functionality with current SOA
+services;
+Developed services that are flexible, high-performance, reliable and compatible with current PathFinder
+infrastructure;
+Developed, tested and implemented PathFinder;
+Created data input forms, system code, XML data files, system procedures and technical documentation such as change
+control document, technical procedures and user / technical manuals for PathFinder;
+Controlled and performed systems testing for PathFinder;
+Troubleshot and debugged technical issues for PathFinder;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to Management
+Team;
+Liaised with management to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to the management as requested;
+
+Technologies Used:
+Java, J2EE, SOA, HTML, CSS, JSP, JMS, Spring, Rational Rose, WCAG, REST, WET, XML, iText, PL/SQL, SQL,
+JavaScript, jQuery, require.js AJAX, JSON, Jenkins, Oracle 11g DB, Eclipse, WebStorm, Apache, SubVersion,
+Agile, Maven, Hibernate
+
+
+PROJECT # 11
+iTKunst corporation (for Open Source), Ottawa, ON
+CEO/Manager/Architect
+October 2009 – October 2011 (24 Months)
+Project Description:
+kunstWerkJS (kWjs)
+kWjs is a unique approach to building JavaScript components and applications.
+
+Performed bi-annual performance reviews, provided career targets;
+Scheduled and prioritized tasks;
+Managed Financing,
+Ran SCRUM meetings;
+Created SRED reports;
+Marketed and performed sales functions;
+Further developed ideas generated while providing services for Prolity;
+kWjs is based on the Micro-MVC architecture. Each element in the DOM has a model, view and controller;
+It provides one way binding;
+kWjs employs Full Component Templating. Each element has a corresponding object containing initialization and
+run-time values in json files loaded at runtime.  This allows near total declarative programming - total separation
+of meta-data and logic.
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building kWjs, and for the development of functional and system design specifications;
+Designed object models, methods and procedures for kWjs;
+Oversaw Development, testing and implementation of kWjs;
+Oversaw creation of data input forms, system code, XML data files, system procedures and technical documentation
+such as change control document and, technical for kWjs;
+Controlled and performed systems testing for kWjs;
+Oversaw troubleshooting and debugging of technical issues for kWjs;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to JavaScript
+community;
+Liaised with developers to move the project through the various stages in the Software Development Lifecycle (SDLC);
+
+Technologies Used:
+JavaScript, REST, CSS, HTML, AJAX, jQuery, require.js, WebStorm, Git, Agile
+
+
+PROJECT # 12
+Prolity Corporation (for Department of National Defense)
+Full Stack Manager/Architect
+October 2007 – September 2009 (23 Months)
+Project Description:
+MOSExplorer
+MOSExplorer (Military Operational Scenario) is a Rich Internet Application (RIA) that provides access to GIS data
+produced by Prolity Corporation for DND.
+
+Performed bi-annual performance reviews, provided career targets;
+Scheduled and prioritized tasks;
+Ran SCRUM meetings;
+Developed a JavaScript framework based on jQuery to simplify and accelerate application development - this later
+became kunstWerkJS (kWjs)
+Designed and developed APIs
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building MOSExplorer, and for the development of functional and system design specifications;
+Designed object models, methods and procedures for MOSExplorer;
+Developed services that are flexible, high-performance, reliable and compatible with current DND infrastructure;
+Developed, tested and implemented MOSExplorer;
+Oversaw Creation of data input forms, system code, XML data files, system procedures and technical documentation
+such as change control document, technical procedures and user / technical manuals for MOSExplorer;
+Controlled and performed systems testing for MOSExplorer;
+Troubleshot and debugged technical issues for MOSExplorer;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to Junior
+Developers;
+Liaised with DND to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to DND as requested;
+
+Technologies Used:
+PHP, JavaScript, Dojo, SOA, XML, XSLT, HTML, CSS, Servlets, MapServer, kaMAP, JSON, REST, SOAP, OODM, MySQL,
+Apache, Eclipse, WebStorm, SubVersion, Agile.
+
+
+PROJECT # 13
+Cognos Incorporated (now IBM), Ottawa, ON
+Architect/Developer
+September 2006 – September 2007 (12 Months)
+Project Description:
+Fixed SAP BW Query inconsistencies
+
+Participated in SCRUM meetings;
+Provided strategy to management for resolving SAP’s BW query inconsistencies.
+Strategy involved ignoring SAP’s BW functionality and instead retrieving individual cube’s metadata and data
+in order to spin up Congo's own proprietary hypercube.
+Reduced necessity for 70 software professionals to 10.
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building and modifying OMDF, SOMDD, OE, and XMLStore, and for the development of functional and system design
+specifications;
+Designed object models, methods and procedures for OMDF, SOMDD, OD, and XMLStore;
+Developed, tested and implemented OMDF, SOMDD, OD, and XMLStore;
+Controlled and performed systems testing for OMDF, SOMDD, OD, and XMLStore;
+Troubleshot and debugged technical issues for OMDF, SOMDD, OD, and XMLStore;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to Cognos;
+Liaised with Director to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to Director as requested;
+OLAP Metadata/Data Framework (OMDF),
+OMDF provides a generic framework for retrieving data and metadata from OLAP sources in order to rapidly spin up
+a Cognos hypercube.
+Created OMDF specifically as a generic library in order to facilitate the maintenance, stability and extensibility
+for all OLAP providers.
+OMDF provided extensive caching - simplifying functionality and improving runtime performance;
+SAP OLAP Metadata/Data Driver (SOMDD),
+SOMDD is a SAP BW implementation of the OMDF.
+Created SOMD in order to retrieve metadata and data from SAP’s BW.
+Provided suggestions to SAP that enabled metadata caching that further improved SAP query performance;
+SAP BW query run times were reduced by up to 75%
+
+OLAP Engine(OE) & XMLStore
+The OE utilizes OLAP Metadata/Data Drivers (OMDD) to spin up Cogno’s proprietary hypercubes. XMLStore caches
+pertinent components of various XML documents required by the OE.
+Created XMLStore and modified OE simultaneously;
+Simplified OE dramatically;
+Reduced OE code by up to 85%;
+Improved OE performance and stability significantly;
+
+Technologies Used:
+C++, Perl, SOA, REST, SAP, XML, XSL, Rational Unified Process, Eclipse, Rational Rose, Oracle, Informix, Cognos,
+Eclipse, SubVersion, Agile
+
+
+PROJECT # 14
+the PYXIS innovation, Kingston, ON
+Senior Software Developer
+October 2004 – August 2006 (21 months)
+Project Description:
+WorldView GeoWeb Browser (WGB)
+WGB allows one to view disparate geospatial datasets together in real time.
+
+Participated in SCRUM meetings
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building WGB, and for the development of functional and system design specifications;
+Designed object models, methods and procedures for WGB;
+Developed, tested and implemented WGB;
+Created of data input forms, system code, XML data files, system procedures and technical documentation such as
+change control document, technical procedures and user / technical manuals for WGB;
+Controlled and performed systems testing for WGB;
+Troubleshot and debugged technical issues for WGB;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to Junior
+Developers;
+Liaised with VP to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to VP as requested;
+
+Technologies Used:
+C++, STL, Boost, MFC, SOAP, .NET, REST, SOA, C#, WSDL, GDAL, OGR, PostgreSQL, MySQL, Rational Unified Process,
+MS Visual Studio, Rational Rose, Agile
+
+
+PROJECT  # 15
+Hummingbird (now OpenText), Kingston, ON
+Manager/Architect
+November 1998 – October 2004 (71 Months)
+Project Description:
+BI Connectivity Suite (BICS)
+BICS abstracts the data layer for the BI and ETL platform.
+
+Performed bi-annual performance reviews, provided career targets;
+Created Data Layer framework - simplifying development, speed, and stability of RDBMS specific drivers;
+Created SAP ABAP driver on top of the Data Layer Framework for Hummingbird’s ETL suite
+Scheduled and prioritized tasks;
+Ran standup meetings;
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building BICS, and for the development of functional and system design specifications Designed object models,
+methods and procedures for BICS;
+Developed, tested and implemented BICS;
+Oversaw Creation of data input forms, system code, XML data files, system procedures and technical documentation
+such as change control document, technical procedures and user / technical manuals for BICS;
+Controlled and performed systems testing for BICS;
+Oversaw the Troubleshooting and debugging of technical issues for BICS;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to
+Software Developers;
+Liaised with Director to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to Director R&D as requested;
+
+Technologies Used:
+Java, J2EE, Spring Framework, JMS, JSP, SQL, PL/SQL, C++, Oracle, Informix, MS SQL Server, MySQL, Red Brick,
+PostgreSQL, Ingres, SAP, Rational Unified Process, MS Visual Studio, Rational Rose, MFC, Agile, Maven, Hibernate
+
+
+PROJECT # 16
+Maclean Engineering, ON
+Manager
+June 1995 – October 1998 (40 Months)
+Project Description:
+Ran IT department
+
+Managed a team of two IT personnel;
+Responsible for all hardware and software;
+Developed software systems;
+Maintained network;
+Discovered and became a huge fan of C++ and Object Oriented Programming;
+
+Technologies Used:
+C, C++, VB, Activex, MS SQL Server, MS Visual Studio, Agile
+
+
+PROJECT # 17
+Nortel GmbH, Munich Germany
+IT Support Engineer
+January 1992 – May 1993 (16 months)
+Project Description:
+Provided technical support for SL1 Switches
+
+Technologies Used:
+Telephone, chip burner
+
+
+PROJECT # 18
+Telxon Corporation, ON
+Software Developer
+May 1989 – April 1991 (13 Months)
+Project Description:
+Developed Inventory systems (IS) for Telxon handheld computers.
+
+Gathered and analyzed data for the conduct of studies to establish the technical and economic feasibility for
+building IS, and for the development of functional and system design specifications;
+Designed object models, methods and procedures for IS;
+Developed, tested and implemented IS;
+Created data input forms, system code, XML data files, system procedures and technical documentation such as
+change control document, technical procedures and user / technical manuals for IS;
+Controlled and performed systems testing for IS;
+Troubleshot and debugged technical issues for IS;
+Transferred skills and knowledge on technical procedures and technical architecture, methodologies to Clients;
+Liaised with Client to move the project through the various stages in the Software Development Lifecycle (SDLC);
+Reported status to Client as requested;
+Technologies Used:
+
+Telxon Proprietary Cobol, chip burner

@@ -1,0 +1,36 @@
+<div *ngIf="view"
+     [class]="sStyl"
+     [id]="sId">
+
+    <div>{{sComp}}</div>
+
+    {{sText}}
+
+    <kwc-ftr-ctr
+        *ngIf="ctr"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-ftr-ctr>
+
+    <kwc-ftr-lft
+        *ngIf="lft"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-ftr-lft>
+
+    <kwc-ftr-rht
+        *ngIf="rht"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-ftr-rht>
+
+</div>

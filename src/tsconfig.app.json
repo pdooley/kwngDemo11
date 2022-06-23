@@ -1,0 +1,120 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "outDir": "../out-tsc/app",
+    "target": "es5",
+    "module": "es2015",
+    "baseUrl": "",
+    "types": ["node"],
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@appCommon/*": [
+        "app/common/*"
+      ],
+      "@appCore/*": [
+        "app/core/*"
+      ],
+      "@appEnv/*": [
+        "app/core/*"
+      ],
+      "@dw/*": [
+        "dw/*"
+      ],
+      "@dwClass/*": [
+        "dw/class/*"
+      ],
+      "@dwComp/*": [
+        "dw/comp/*"
+      ],
+      "@dwCore/*": [
+        "dw/core/*"
+      ],
+      "@dwPage/*": [
+        "dw/page/*"
+      ],
+      "@dwState/*": [
+        "dw/state/*"
+      ],
+      "@dwType/*": [
+        "dw/type/*"
+      ],
+      "@env/*": [
+        "env/*"
+      ],
+      "@kw/*": [
+        "kw/*"
+      ],
+      "@kwBS/*": [
+        "kw/BS/*"
+      ],
+      "@kwClass/*": [
+        "kw/class/*"
+      ],
+      "@kwCtrl/*": [
+        "kw/ctrl/*"
+      ],
+      "@kwState/*": [
+        "kw/state/*"
+      ],
+      "@kwType/*": [
+        "kw/type/*"
+      ],
+      "@kwNg/*": [
+        "kwNg/*"
+      ],
+      "@kwNgBS/*": [
+        "kwNg/BS/*"
+      ],
+      "@kwNgClass/*": [
+        "kwNg/class/*"
+      ],
+      "@kwNgCore/*": [
+        "kwNg/core/*"
+      ],
+      "@kwNgHttp/*": [
+        "kwNg/http/*"
+      ],
+        "@kwp/*": [
+        "kwNg/page/*"
+      ],
+        "@kwNgPage/*": [
+            "kwNg/page/*"
+        ],
+        "@kwNgState/*": [
+            "kwNg/state/*"
+        ],
+    "@kwNgType/*": [
+      "kwNg/type/*"
+    ],
+      "@kwc/*": [
+        "kwNgView/*"
+      ],
+      "@kwNgView/*": [
+        "kwNgView/*"
+      ],
+      "@kwNgViewCore/*": [
+        "kwNgView/core/*"
+      ],
+       "@kwViewClass/*": [
+        "kwView/class/*"
+      ],
+      "@kwViewState/*": [
+        "kwView/state/*"
+      ]
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}

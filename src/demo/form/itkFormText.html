@@ -1,0 +1,59 @@
+<form [formGroup]="group">
+
+	<div fxLayout="column">
+
+		<div fxLayout="row"
+			 fxLayoutAlign="start center">
+
+			<mat-form-field fxFlex="100">
+
+				<input matInput
+						 type="text"
+						 #feedback
+						 placeholder="{{ critique.text.sPlaceHolder }}"
+						 formControlName="issue"
+						 required
+						 maxlength="256">
+
+				<mat-icon matSuffix>mode_edit</mat-icon>
+
+				<mat-hint align="end">
+					{{ feedback.value.length }} / 256
+				</mat-hint>
+
+				<mat-hint align="start">
+					{{ critique.text.sHint }}
+				</mat-hint>
+			</mat-form-field>
+
+		</div>
+
+		<div fxLayout="row"
+			 fxLayoutAlign="end end">
+
+			<button mat-button
+					color="warn"
+					(click)="onCancel()">
+				Cancel
+			</button>
+
+			<button mat-button
+					color="accent"
+					matStepperPrevious>
+				Back
+			</button>
+
+			<button mat-button
+					matStepperNext
+					color="primary">
+				Next
+			</button>
+
+
+		</div>
+
+	</div>
+
+
+</form>
+

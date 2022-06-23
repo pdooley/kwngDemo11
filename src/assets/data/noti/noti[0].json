@@ -1,0 +1,133 @@
+{
+  "_id": "5a9acd37e727fb002e98b836",
+  "updatedAt": "2018-03-03T16:28:39.653Z",
+  "createdAt": "2018-03-03T16:28:39.653Z",
+  "matter": {
+    "_id": "5a974c6e2f6bf60014e4f40a",
+    "updatedAt": "2018-03-03T05:47:54.057Z",
+    "createdAt": "2018-03-01T00:42:22.887Z",
+    "deal_type": "general_commercial",
+    "primary": "5a77feeb80366f00143507d6",
+    "firm": "5a77fdb880366f00143507cc",
+    "author": "5a77feeb80366f00143507d6",
+    "type": "Commercial",
+    "name": "DealWIP_External",
+    "__v": 3,
+    "diligence_directory": [],
+    "completed": false,
+    "closing_checklist": [
+      "5a9a370ae727fb002e98b7ff"
+    ],
+    "transaction": {
+      "matter_type": "complex_transaction",
+      "govt_approval_req": false,
+      "est_purchase_price": 0
+    },
+    "teams": [
+      {
+        "member": "5a7886ca1b54380014932bee",
+        "team": "5a787e231b54380014932bd2",
+        "_id": "5a974c6f2f6bf60014e4f40d"
+      },
+      {
+        "member": "5a77feeb80366f00143507d6",
+        "team": "5a77fdb880366f00143507cc",
+        "_id": "5a974c6f2f6bf60014e4f40e"
+      },
+      {
+        "member": "5a77feeb80366f00143507d6",
+        "team": "5a77fdb880366f00143507cc",
+        "_id": "5a974c712f6bf60014e4f412"
+      },
+      {
+        "member": "5a7880dd1b54380014932be9",
+        "team": "5a787e231b54380014932bd2",
+        "_id": "5a974d2e2f6bf60014e4f415"
+      },
+      {
+        "member": "5a78b8b861687b0014ea47ab",
+        "team": "5a787e231b54380014932bd2",
+        "_id": "5a974d422f6bf60014e4f41a"
+      },
+      {
+        "member": "5a78b8b861687b0014ea47ab",
+        "team": "5a787e231b54380014932bd2",
+        "_id": "5a974d422f6bf60014e4f41b"
+      }
+    ],
+    "date": {
+      "end": "2018-03-01T00:42:22.869Z",
+      "start": "2018-03-01T00:42:22.869Z"
+    },
+    "firms": [
+      "5a787e231b54380014932bd2"
+    ],
+    "created": "2018-03-01T00:42:22.868Z"
+  },
+  "author": {
+    "_id": "5a77feeb80366f00143507d6",
+    "username": "Ironforge4",
+    "firm_values": null,
+    "id": "5a77feeb80366f00143507d6"
+  },
+  "type": "Signature",
+  "object": {
+    "_id": "5a9acb97e727fb002e98b835",
+    "updatedAt": "2018-03-03T16:28:39.634Z",
+    "createdAt": "2018-03-03T16:21:43.480Z",
+    "type": "e-Signature",
+    "author": "5a77feeb80366f00143507d6",
+    "closing_form": {
+      "_id": "5a9a37d1e727fb002e98b802",
+      "updatedAt": "2018-03-03T16:21:43.496Z",
+      "createdAt": "2018-03-03T05:51:13.416Z",
+      "url": "https://s3.amazonaws.com/dealwip/5a974c6e2f6bf60014e4f40a/closing/5a9a37d1e727fb002e98b802",
+      "id_number": 1.2,
+      "title": "Testing",
+      "is_exhibit": false,
+      "author": "5a77feeb80366f00143507d6",
+      "matter": "5a974c6e2f6bf60014e4f40a",
+      "__v": 0,
+      "date_markers": [],
+      "signatures": [
+        "5a9acb97e727fb002e98b835"
+      ],
+      "exhibits": [],
+      "sequence": "pre"
+    },
+    "__v": 0,
+    "signature_image": "5a780970361a4800148e5f34",
+    "completed": true,
+    "marker": {
+      "page_num": 1,
+      "parent": {
+        "w": 1706,
+        "h": 2414
+      },
+      "rect": {
+        "x": 695,
+        "y": 404.69998729228973,
+        "w": 150,
+        "h": 150
+      }
+    },
+    "attention_of": {
+      "name": "sum@ironforge.co",
+      "email": "sum@ironforge.co"
+    },
+    "org": {
+      "email": "smnrwebster5@gmail.com",
+      "name": "sumner"
+    }
+  },
+  "action": "request_completed",
+  "__v": 0,
+  "show_notification": true,
+  "show_feed": true,
+  "unread_by": [
+    "5a77feeb80366f00143507d6"
+  ],
+  "subjects": [
+    "5a77feeb80366f00143507d6"
+  ]
+}

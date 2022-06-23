@@ -1,0 +1,54 @@
+<form [formGroup]="group">
+
+	<div fxLayout="column">
+
+		<div fxLayout="row"
+			 fxLayoutAlign="start center"
+			 fxFlex="1 0 auto">
+
+			<mat-form-field fxFlex="100">
+
+				<mat-select placeholder="{{ critique.option.sPlaceHolder }}"
+							formControlName="id">
+
+					<mat-option *ngFor="let option of options"
+								[value]="option.nId">
+						{{ option.sName }} - {{ option.title.sSub }}
+					</mat-option>
+
+				</mat-select>
+
+				<mat-icon matSuffix>
+					report_problem
+				</mat-icon>
+
+				<mat-hint align="start">
+					{{ critique.option.sHint }}
+				</mat-hint>
+
+			</mat-form-field>
+
+		</div>
+
+		<div fxLayout="row"
+			 fxLayoutAlign="end end">
+
+			<button mat-button
+					color="warn"
+					(click)="onCancel()">
+				Cancel
+			</button>
+
+			<button mat-button
+					matStepperNext
+					color="primary">
+				Next
+			</button>
+
+
+		</div>
+
+	</div>
+
+</form>
+

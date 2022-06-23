@@ -1,0 +1,22 @@
+
+.container {
+    width: 100%;
+    min-width: 100%
+}
+
+.header {
+    background-color: var(--white-two);
+    font-family: GothamRounded;
+    font-size: 16.6px;
+    font-weight: 300;
+    height: 98px;
+    border: solid 0.5px var(--pale-grey-two);
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: GothamRounded-Light;
+    color: var(--charcoal-grey-two);
+    height: inherit;
+}

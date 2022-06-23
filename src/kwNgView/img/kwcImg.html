@@ -1,0 +1,42 @@
+<div *ngIf="view"
+     [class]="sStyl">
+
+    <div>{{sComp}}</div>
+
+    <kwc-icon
+        *ngIf="icon"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-icon>
+
+    <kwc-logo
+        *ngIf="logo"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-logo>
+
+    <kwc-svg
+        *ngIf="svg"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-svg>
+
+    <kwc-svg-raw
+        *ngIf="raw"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-svg-raw>
+
+</div>

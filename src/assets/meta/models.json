@@ -1,0 +1,3483 @@
+{
+  "account": {
+    "sType": "full",
+    "params": [
+      {
+        "default": "Costco",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "companyName",
+        "sNameInt": "sCompanyName",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Company name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createTime",
+        "sNameInt": "sCreateTime",
+        "nPosition": 2,
+        "sSrvcIn": "time",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": "CAD",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "currency",
+        "sNameInt": "currency",
+        "nPosition": 3,
+        "sSrvcIn": "curr",
+        "sSrvcOut": "currcode",
+        "sTitle": "Currency",
+        "values": [
+          "USD",
+          "CAD",
+          "euro"
+        ]
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "isDeleted",
+        "sNameInt": "bIsDeleted",
+        "nPosition": 5,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Deleted?"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameInt": "bIsServiceProvider",
+        "sNameExt": "isServiceProvider",
+        "nPosition": 6,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Service provider?"
+      },
+      {
+        "default": "en",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameInt": "language",
+        "sNameExt": "language",
+        "nPosition": 7,
+        "sSrvcIn": "lang",
+        "sSrvcOut": "langcode",
+        "sTitle": "Language"
+      },
+      {
+        "default": "America/Toronto",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "timeZone",
+        "sNameInt": "timeZone",
+        "nPosition": 8,
+        "sSrvcIn": "tz",
+        "sSrvcOut": "tzcode",
+        "sTitle": "Time Zone"
+      }
+    ]
+  },
+  "accountCreate": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "isDefault",
+        "sNameInt": "bIsDefault",
+        "nPosition": 4,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Default?"
+      },
+      {
+        "default": "roleb",
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      }
+    ]
+  },
+  "act": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "ID"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "mater",
+        "nPosition": 3,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Matters"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "object",
+        "sNameInt": "object",
+        "nPosition": 5,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Object"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "action",
+        "sNameInt": "action",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Action"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "__v",
+        "sNameInt": "__v",
+        "nPosition": 7,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Version"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "show_notification",
+        "sNameInt": "show_notification",
+        "nPosition": 8,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Show Notification"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "show_feed",
+        "sNameInt": "show_feed",
+        "nPosition": 9,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Show Feed"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "unread_by",
+        "sNameInt": "unread_by",
+        "nPosition": 10,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Unread by"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "subjects",
+        "sNameInt": "subjects",
+        "nPosition": 11,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Subjects"
+      }
+    ]
+  },
+  "activityTag": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "isDefault",
+        "sNameInt": "bIsDefault",
+        "nPosition": 4,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Default?"
+      },
+      {
+        "default": "roleb",
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      }
+    ]
+  },
+  "api": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "isDefault",
+        "sNameInt": "bIsDefault",
+        "nPosition": 4,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Default?"
+      },
+      {
+        "default": "roleb",
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      }
+    ]
+  },
+  "ass": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "isDefault",
+        "sNameInt": "bIsDefault",
+        "nPosition": 4,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Default?"
+      },
+      {
+        "default": "roleb",
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      }
+    ]
+  },
+  "binder": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "title",
+        "sNameInt": "title",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "title"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "selected_docs",
+        "sNameInt": "selected_docs",
+        "nPosition": 5,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Selected Docs"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 6,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "archived",
+        "sNameInt": "archived",
+        "nPosition": 7,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "archived"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "cover_sheet",
+        "sNameInt": "cover_sheet",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Cover Ssheet"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "url",
+        "sNameInt": "url",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Url"
+      }
+    ]
+  },
+  "chat": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 3,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "number",
+        "sNameInt": "number",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "number"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "title",
+        "sNameInt": "title",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Title"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 6,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "responsible_party",
+        "sNameInt": "responsible_party",
+        "nPosition": 7,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Responsible Party"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "status",
+        "sNameInt": "status",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "status"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "assigned_to",
+        "sNameInt": "assigned_to",
+        "nPosition": 9,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Assigned To"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "current_version",
+        "sNameInt": "current_version",
+        "nPosition": 10,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Current Version"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 11,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "url",
+        "sNameInt": "url",
+        "nPosition": 12,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Url"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "versions",
+        "sNameInt": "versions",
+        "nPosition": 13,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Versions"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "binder",
+        "sNameInt": "binder",
+        "nPosition": 14,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Assigned To"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "has_published_version",
+        "sNameInt": "has_published_version",
+        "nPosition": 15,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Has Published Version"
+      }
+    ]
+  },
+  "check": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "deal_type",
+        "sNameInt": "deal_type",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Deal Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firm",
+        "sNameInt": "firm",
+        "nPosition": 4,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Firm"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 5,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "name",
+        "sNameInt": "name",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "term_sheet",
+        "sNameInt": "term_sheet",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Term Sheet"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "diligence_directory",
+        "sNameInt": "diligence_directory",
+        "nPosition": 9,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Diligence Dir"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "completed",
+        "sNameInt": "completed",
+        "nPosition": 10,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Completed"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "closing_checklist",
+        "sNameInt": "closing_checklist",
+        "nPosition": 11,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Closing Checklist"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "transaction",
+        "sNameInt": "transaction",
+        "nPosition": 12,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Transaction"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "teams",
+        "sNameInt": "teams",
+        "nPosition": 13,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Teams"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "date",
+        "sNameInt": "date",
+        "nPosition": 14,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Date"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firms",
+        "sNameInt": "firms",
+        "nPosition": 15 ,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Firms"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "created",
+        "sNameInt": "created",
+        "nPosition": 16,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      }
+    ]
+  },
+  "close": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "id_number",
+        "sNameInt": "id_number",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Id Number"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "title",
+        "sNameInt": "title",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Title"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "url",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "URL"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "is_exhibit",
+        "sNameInt": "is_exhibit",
+        "nPosition": 6,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Exhibit"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "__v",
+        "sNameInt": "__v",
+        "nPosition": 9,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Version"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "date_markers",
+        "sNameInt": "date_markers",
+        "nPosition": 10,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Date Markers"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "signatures",
+        "sNameInt": "signatures",
+        "nPosition": 11,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Signatures"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "exhibits",
+        "sNameInt": "exhibits",
+        "nPosition": 12,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Exhibits"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "sequence",
+        "sNameInt": "sequence",
+        "nPosition": 13,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Sequence"
+      }
+    ]
+  },
+  "custom": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "accessRestrictions",
+        "sNameInt": "sAccessRestrictions",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": ""
+      },
+      {
+        "default": true,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "allowEndUserAccounts",
+        "sNameInt": "bAllowEndUsers",
+        "nPosition": 2,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Allow end user accounts"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "allowResellerAccounts",
+        "sNameInt": "bAllowResellers",
+        "nPosition": 3,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Allow reseller account"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "allowSelfSignup",
+        "sNameInt": "bAllowSelfSignup",
+        "nPosition": 4,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Allow self signup"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "auth0ClientID",
+        "sNameInt": "sAuth0ClientID",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Auth0 client ID"
+      },
+      {
+        "default": true,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "auth0CustomerAuthenticationType",
+        "sNameInt": "bAuth0ClientType",
+        "nPosition": 6,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Client Auth0 Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "auth0CustomerConnectionID",
+        "sNameInt": "sAuth0ClientConnID",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Client Auth0 Conn ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "auth0CustomerConnectionName",
+        "sNameInt": "sAuth0ClientConnName",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Client Auth0 Conn name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "auth0StaffConnectionID",
+        "sNameInt": "sAuth0StaffConnID",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Staff Auth0 Conn ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "auth0StaffConnectionName",
+        "sNameInt": "sAuth0StaffConnName",
+        "nPosition": 10,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Staff Auth0 Conn name"
+      },
+      {
+        "default": "free",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "billingType",
+        "sNameInt": "sBillingType",
+        "nPosition": 11,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Billing"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "colours",
+        "sNameInt": "sColours",
+        "nPosition": 12,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Colours"
+      },
+      {
+        "default": "wave.localhost",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "cname",
+        "sNameInt": "sCName",
+        "nPosition": 13,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "CName"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "customCSS",
+        "sNameInt": "sCustomCSS",
+        "nPosition": 14,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Custom CSS"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "favicon",
+        "sNameInt": "sFavicon",
+        "nPosition": 15,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Favicon"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "footerHTML",
+        "sNameInt": "sFooterHTML",
+        "nPosition": 16,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Footer"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "headerHTML",
+        "sNameInt": "sHeaderHTML",
+        "nPosition": 17,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Header"
+      },
+      {
+        "default": 0,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 18,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "isInherited",
+        "sNameInt": "bIsInherited",
+        "nPosition": 18,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "num",
+        "sTitle": "Inherited"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "largeLogo",
+        "sNameInt": "sLargeLogo",
+        "nPosition": 20,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Large logo"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "largeLogo",
+        "sNameInt": "sLargeLogo",
+        "nPosition": 21,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Large logo"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "mediumLogo",
+        "sNameInt": "sMediumLogo",
+        "nPosition": 22,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Medium logo"
+      },
+      {
+        "default": 0,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "ServiceProviders_id",
+        "sNameInt": "nServiceProvidersID",
+        "nPosition": 23,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Service provider ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "smallLogo",
+        "sNameInt": "sSmallLogo",
+        "nPosition": 24,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Small logo"
+      },
+      {
+        "default": "wave",
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "subdomain",
+        "sNameInt": "sSubdomain",
+        "nPosition": 25,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Subdomain"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "titleTag",
+        "sNameInt": "sTitleTag",
+        "nPosition": 26,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Title Tag"
+      }
+    ]
+  },
+  "deal": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "name",
+        "sNameInt": "name",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "number",
+        "sNameInt": "number",
+        "nPosition": 7,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Exhibit"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "url",
+        "sNameInt": "url",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Url"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "__v",
+        "sNameInt": "__v",
+        "nPosition": 9,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Version"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "assigned",
+        "sNameInt": "assigned",
+        "nPosition": 10,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Assigned"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "flags",
+        "sNameInt": "flags",
+        "nPosition": 11,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Flags"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "is_archived",
+        "sNameInt": "is_archived",
+        "nPosition": 12,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Is Archived"
+      }
+    ]
+  },
+  "dil": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "name",
+        "sNameInt": "name",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "number",
+        "sNameInt": "number",
+        "nPosition": 7,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Exhibit"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "url",
+        "sNameInt": "url",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Url"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "__v",
+        "sNameInt": "__v",
+        "nPosition": 9,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Version"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "assigned",
+        "sNameInt": "assigned",
+        "nPosition": 10,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Assigned"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "flags",
+        "sNameInt": "flags",
+        "nPosition": 11,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Flags"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "is_archived",
+        "sNameInt": "is_archived",
+        "nPosition": 12,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Is Archived"
+      }
+    ]
+  },
+  "doc": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nId",
+        "nPosition": 0,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Id"
+      },
+      {
+        "default": true,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "title",
+        "sNameInt": "sTitle",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Title"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "author",
+        "sNameInt": "sAuthor",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": false,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "published",
+        "sNameInt": "bPublished",
+        "nPosition": 3,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Published"
+      },
+      {
+        "default": null,
+        "bIsRequired": false,
+        "bIsVisible": true,
+        "sNameExt": "version_number",
+        "sNameInt": "nVersionNumber",
+        "nPosition": 4,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Version"
+      },
+      {
+        "default": true,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "firm",
+        "sNameInt": "sFirm",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Firm"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "url",
+        "sNameInt": "sUrl",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Url"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "edits",
+        "sNameInt": "edits",
+        "nPosition": 7,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Edits"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "binder",
+        "sNameInt": "nBinder",
+        "nPosition": 9,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Binder"
+      }
+    ]
+  },
+  "firm": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "owner",
+        "sNameInt": "owner",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Owner"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "associates",
+        "sNameInt": "associates",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Associates"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "name",
+        "sNameInt": "name",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "logo",
+        "sNameInt": "logo",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Logo"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "location",
+        "sNameInt": "location",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Location"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "master_email",
+        "sNameInt": "master_email",
+        "nPosition": 8,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "master_email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "color_scheme",
+        "sNameInt": "color_scheme",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "color_scheme"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "invites",
+        "sNameInt": "invites",
+        "nPosition": 10,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Invites"
+      }
+    ]
+  },
+  "flag": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "tagged_users",
+        "sNameInt": "tagged_users",
+        "nPosition": 4,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Tagged Users"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "comments",
+        "sNameInt": "comments",
+        "nPosition": 5,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Comments"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "number",
+        "sNameInt": "number",
+        "nPosition": 6,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Number"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "title",
+        "sNameInt": "title",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Title"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "description",
+        "sNameInt": "description",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "diligence_document",
+        "sNameInt": "diligence_document",
+        "nPosition": 10,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "diligence Document"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "marker",
+        "sNameInt": "marker",
+        "nPosition": 11,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Marker"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "resolved",
+        "sNameInt": "resolved",
+        "nPosition": 12,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Resolved"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "resolved",
+        "sNameInt": "resolved",
+        "nPosition": 11,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "resolved"
+      }
+    ]
+  },
+  "img": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "email",
+        "sNameInt": "email",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "team",
+        "sNameInt": "team",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Team"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "token",
+        "sNameInt": "token",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Token"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "token_expiration",
+        "sNameInt": "token_expiration",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Token Expiration"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firm",
+        "sNameInt": "firm",
+        "nPosition": 10,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Firm"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "valid",
+        "sNameInt": "valid",
+        "nPosition": 11,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Valid"
+      }
+    ]
+  },
+  "inv": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "email",
+        "sNameInt": "email",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "team",
+        "sNameInt": "team",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Team"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "token",
+        "sNameInt": "token",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Token"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "token_expiration",
+        "sNameInt": "token_expiration",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Token Expiration"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matter",
+        "sNameInt": "matter",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Matter"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firm",
+        "sNameInt": "firm",
+        "nPosition": 10,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Firm"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "valid",
+        "sNameInt": "valid",
+        "nPosition": 11,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Valid"
+      }
+    ]
+  },
+  "matter": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "deal_type",
+        "sNameInt": "deal_type",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Deal Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firm",
+        "sNameInt": "firm",
+        "nPosition": 4,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Firm"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 5,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "name",
+        "sNameInt": "name",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "term_sheet",
+        "sNameInt": "term_sheet",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Term Sheet"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "diligence_directory",
+        "sNameInt": "diligence_directory",
+        "nPosition": 9,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Diligence Dir"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "completed",
+        "sNameInt": "completed",
+        "nPosition": 10,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Completed"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "closing_checklist",
+        "sNameInt": "closing_checklist",
+        "nPosition": 11,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Closing Checklist"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "transaction",
+        "sNameInt": "transaction",
+        "nPosition": 12,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Transaction"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "teams",
+        "sNameInt": "teams",
+        "nPosition": 13,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Teams"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "date",
+        "sNameInt": "date",
+        "nPosition": 14,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Date"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firms",
+        "sNameInt": "firms",
+        "nPosition": 15 ,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Firms"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "created",
+        "sNameInt": "created",
+        "nPosition": 16,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      }
+    ]
+  },
+  "metric": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "permissions",
+        "sNameInt": "permissions",
+        "nPosition": 2,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Permissions"
+      }
+    ]
+  },
+  "model": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "permissions",
+        "sNameInt": "permissions",
+        "nPosition": 2,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Permissions"
+      }
+    ]
+  },
+  "msg": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 0,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "author",
+        "sNameInt": "sAuthor",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "message",
+        "sNameInt": "sMessage",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Message"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "attachment",
+        "sNameInt": "sAttachment",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Attachment"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "conversation",
+        "sNameInt": "sConversations",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Conversations"
+      }
+    ]
+  },
+  "org": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "permissions",
+        "sNameInt": "permissions",
+        "nPosition": 2,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Permissions"
+      }
+    ]
+  },
+  "redirect": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "permissions",
+        "sNameInt": "permissions",
+        "nPosition": 2,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Permissions"
+      }
+    ]
+  },
+  "role": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "permissions",
+        "sNameInt": "permissions",
+        "nPosition": 2,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Permissions"
+      }
+    ]
+  },
+  "srch": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "Accounts_id",
+        "sNameInt": "nAccountID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Account ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createDate",
+        "sNameInt": "sCreateDate",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Create date"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "metaData",
+        "sNameInt": "sMetaData",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Meta data"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "ServiceOfferings_id",
+        "sNameInt": "nServiceOfferingsID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Service offering ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "state",
+        "sNameInt": "sState",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "State"
+      }
+    ]
+  },
+  "subscr": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "Accounts_id",
+        "sNameInt": "nAccountID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Account ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createDate",
+        "sNameInt": "sCreateDate",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Create date"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "metaData",
+        "sNameInt": "sMetaData",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Meta data"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "ServiceOfferings_id",
+        "sNameInt": "nServiceOfferingsID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Service offering ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "state",
+        "sNameInt": "sState",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "State"
+      }
+    ]
+  },
+  "sig": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Id"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "closing_form",
+        "sNameInt": "closing_form",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Closing Form"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "org",
+        "sNameInt": "org",
+        "nPosition": 5,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Org"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "attention_of",
+        "sNameInt": "attention_of",
+        "nPosition": 6,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Attention Of"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "marker",
+        "sNameInt": "marker",
+        "nPosition": 7,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Marker"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "author",
+        "sNameInt": "author",
+        "nPosition": 8,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Author"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "completed",
+        "sNameInt": "completed",
+        "nPosition": 9,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Completed"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "signature_image",
+        "sNameInt": "signature_image",
+        "nPosition": 10,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Image"
+      }
+    ]
+  },
+  "signin": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "email",
+        "sNameInt": "sUsername",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "password",
+        "sNameInt": "sPassword",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Password"
+      }
+    ]
+  },
+  "signout": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "email",
+        "sNameInt": "sUsername",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "password",
+        "sNameInt": "sPassword",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Password"
+      }
+    ]
+  },
+  "signup": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "email",
+        "sNameInt": "sUsername",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "password",
+        "sNameInt": "sPassword",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Password"
+      }
+    ]
+  },
+  "user": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "_id",
+        "sNameInt": "_id",
+        "nPosition": 0,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "ID"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "updatedAt",
+        "sNameInt": "updatedAt",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Updated"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "createdAt",
+        "sNameInt": "createdAt",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Created"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "type",
+        "sNameInt": "type",
+        "nPosition": 3,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Type"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "username",
+        "sNameInt": "username",
+        "nPosition": 4,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Username"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "provider",
+        "sNameInt": "provider",
+        "nPosition": 5,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Provider"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "email",
+        "sNameInt": "email",
+        "nPosition": 6,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "password",
+        "sNameInt": "password",
+        "nPosition": 7,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Password"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "__v",
+        "sNameInt": "__v",
+        "nPosition": 8,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "Version"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firm",
+        "sNameInt": "firm",
+        "nPosition": 9,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Firm"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "position",
+        "sNameInt": "position",
+        "nPosition": 10,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Position"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "work_email",
+        "sNameInt": "work_email",
+        "nPosition": 11,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Work Email"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "fullname",
+        "sNameInt": "fullname",
+        "nPosition": 12,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Fullname"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "recent_searches",
+        "sNameInt": "recent_searches",
+        "nPosition": 13,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Recent Searches"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "tasks_lists",
+        "sNameInt": "tasks_lists",
+        "nPosition": 14,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Tasks Lists"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "account_complete",
+        "sNameInt": "account_complete",
+        "nPosition": 15 ,
+        "sSrvcIn": "bool",
+        "sSrvcOut": "bool",
+        "sTitle": "Account Complete"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "matters",
+        "sNameInt": "matters",
+        "nPosition": 16,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Matters"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "experience",
+        "sNameInt": "experience",
+        "nPosition": 17,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Experience"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "education",
+        "sNameInt": "education",
+        "nPosition": 18,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Education"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "specialty_tags",
+        "sNameInt": "specialty_tags",
+        "nPosition": 19,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Specialty Tags"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "name",
+        "sNameInt": "name",
+        "nPosition": 20,
+        "sSrvcIn": "obj",
+        "sSrvcOut": "obj",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "cover_photo",
+        "sNameInt": "cover_photo",
+        "nPosition": 21,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Cover Photo"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "profile_picture",
+        "sNameInt": "profile_picture",
+        "nPosition": 22,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Profile Picture"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "firm_values",
+        "sNameInt": "firm_values",
+        "nPosition": 23,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Firm Values"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "id",
+        "sNameInt": "id",
+        "nPosition": 24,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "id"
+      }
+    ]
+  },
+  "userRole": {
+    "sType": "sub",
+    "params": [
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "description",
+        "sNameInt": "sDescription",
+        "nPosition": 1,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Description"
+      },
+      {
+        "default": 0,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "id",
+        "sNameInt": "nID",
+        "nPosition": 2,
+        "sSrvcIn": "num",
+        "sSrvcOut": "num",
+        "sTitle": "ID"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": true,
+        "sNameExt": "name",
+        "sNameInt": "sName",
+        "nPosition": 2,
+        "sSrvcIn": "str",
+        "sSrvcOut": "str",
+        "sTitle": "Name"
+      },
+      {
+        "default": null,
+        "bIsRequired": true,
+        "bIsVisible": false,
+        "sNameExt": "Permissions",
+        "sNameInt": "permissions",
+        "nPosition": 2,
+        "sSrvcIn": "arr",
+        "sSrvcOut": "arr",
+        "sTitle": "Permissions"
+      }
+    ]
+  }
+}

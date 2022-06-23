@@ -1,0 +1,55 @@
+<div class="login">
+	<div class="login-content">
+		<div class="login-main">
+			<img src="../../../assets/images/layer-29/layer-29.png"
+					 srcset="../../../assets/images/layer-29/layer-29@2x.png 2x, ../../../assets/images/layer-29/layer-29@3x.png 3x"
+					 class="login-main-image" />
+
+			<div class="dealwip-logo-container">
+				<img src="../../../assets/images/layer-1/layer-1.png"
+						 srcset="../../../assets/images/layer-1//layer-1@2x.png 2x, ../../../assets/images/layer-1//layer-1@3x.png 3x"
+						 style="z-index: 50"
+						 class="dealwip-logo" />
+			</div>
+		</div>
+
+		<div class="login-input-content">
+			<label class="login-label">Username</label>
+
+			<div class="login-input-container">
+				<input mat-input
+							 class="login-input"
+							 [value]="sUsername"
+							 type="email"
+							 placeholder="Enter your email"	/>
+			</div>
+
+			<div class="password-container">
+				<div class="login-label">Password</div>
+				<div class="forgot-password-label" (click)="goToForgotPassword()">Forgot?</div>
+			</div>
+
+			<div class="login-input-container">
+				<input mat-input
+							 class="login-input"
+							 [value]="sPassword"
+							 type="password"
+							 placeholder="This must be fixed" />
+			</div>
+
+			<button mat-button
+							class="login-button"
+							(click)="onLogin()">
+				Log In
+			</button>
+
+			<div class="sign-up-container">
+				<span class="NO-ACCOUNT-SIGN-UP">No Account?</span>
+				<span class="NO-ACCOUNT-SIGN-UP text-style-1" ui-sref="auth.firm_registration">Sign Up</span>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

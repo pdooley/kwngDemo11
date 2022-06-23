@@ -1,0 +1,13 @@
+Dear Sir or Madam,
+
+I am interested in working for your company.
+
+I am very good at helping companies write extensible, fast, bug-free code, quickly and easily.  I do this primarily through the strategy of minimizing redundant code.
+
+As an example, it is my hope that I will be releasing the second version of my JavaScript framework.  This version is designed to be used with Angular 4/5 and simplifies and accelerates Angular development, as well as providing much more flexible applications.
+
+I look forward to speaking with you.
+
+Sincerely,
+
+Patrick Dooley

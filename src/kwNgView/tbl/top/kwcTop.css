@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 62.5px;
+    background-color: var(--white-two);
+    padding-left: 24px;
+}
+
+.right {
+    height: inherit;
+    display: flex;
+    margin: 0 54px 0 auto;
+    font-family: GothamRounded;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.left {
+    margin: auto 0 auto 52px;
+    width: 90%;
+    height: inherit;
+    display: flex;
+}
+

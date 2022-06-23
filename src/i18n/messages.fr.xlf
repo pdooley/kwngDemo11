@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="ng2.template">
+		<body>
+			<trans-unit id="920026aaeb5ae43680c13d3ca4b3b445b84a89f1" datatype="html">
+				<source>
+					THANK YOU FOR STAYING WITH US
+				</source>
+				<target>
+					Must translate into fr <THANK YOU FOR STAYING WITH US>
+				</target>
+			</trans-unit>
+			<trans-unit id="bb11b447b37c747e650b7fe2a1cb6fecfa3004a9" datatype="html">
+				<source>
+					How is your stay going?
+				</source>
+				<target>
+					Must translate into fr <How is your stay going?>
+				</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

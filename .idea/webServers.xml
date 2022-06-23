@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="60ea0eeb-11a4-4234-b2f7-2e5a40b5fa67" name="lab" url="http://lab">
+        <fileTransfer host="lab" port="22" rootFolder="/home/pdooley/code/gr_matdes" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

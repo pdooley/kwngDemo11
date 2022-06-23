@@ -1,0 +1,152 @@
+{
+  "notifications": [
+    {
+      "_id": "5a903dfb00cb9700140686f5",
+      "updatedAt": "2018-02-23T16:14:51.651Z",
+      "createdAt": "2018-02-23T16:14:51.651Z",
+      "matter": {
+        "_id": "5a7800bc80366f00143507d7",
+        "updatedAt": "2018-02-08T15:24:59.331Z",
+        "createdAt": "2018-02-05T06:59:08.073Z",
+        "deal_type": "deals",
+        "primary": "5a77feeb80366f00143507d6",
+        "firm": "5a77fdb880366f00143507cc",
+        "author": "5a77feeb80366f00143507d6",
+        "type": "General Corporate",
+        "name": "Matter Alpha",
+        "__v": 3,
+        "term_sheet": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/term_sheet.pdf",
+        "diligence_directory": [],
+        "completed": false,
+        "closing_checklist": [
+          "5a780188361a4800148e5f13",
+          "5a7804ae361a4800148e5f21",
+          "5a7808ce361a4800148e5f30",
+          "5a7a37e69bbb050014cbb082",
+          "5a7a74ab9bbb050014cbb097",
+          "5a7a89079bbb050014cbb09d",
+          "5a7a896d9bbb050014cbb0a0",
+          "5a7c6bcb1fd1b800144ee79b"
+        ],
+        "transaction": {
+          "matter_type": "complex_transaction",
+          "govt_approval_req": false,
+          "est_purchase_price": 0
+        },
+        "teams": [
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bc80366f00143507da"
+          },
+          {
+            "member": "5a77feeb80366f00143507d6",
+            "team": "5a77fdb880366f00143507cc",
+            "_id": "5a7800bd80366f00143507dd"
+          },
+          {
+            "member": "5a780240361a4800148e5f16",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780240361a4800148e5f17"
+          },
+          {
+            "member": "5a780f644133940014dc7d1c",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a780f644133940014dc7d1d"
+          },
+          {
+            "member": "5a786ded1b54380014932b98",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a786ded1b54380014932b99"
+          },
+          {
+            "member": "5a7880dd1b54380014932be9",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cf21b54380014932c11"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c16"
+          },
+          {
+            "member": "5a7886ca1b54380014932bee",
+            "team": "59ffb4b68a422333c8a4a965",
+            "_id": "5a788cfb1b54380014932c17"
+          }
+        ],
+        "date": {
+          "end": "2018-02-05T06:59:08.070Z",
+          "start": "2018-02-05T06:59:08.070Z"
+        },
+        "firms": [
+          "59ffb4b68a422333c8a4a965"
+        ],
+        "created": "2018-02-05T06:59:08.070Z"
+      },
+      "author": {
+        "_id": "5a7880dd1b54380014932be9",
+        "username": "Tunji",
+        "firm_values": null,
+        "id": "5a7880dd1b54380014932be9"
+      },
+      "type": "Flag",
+      "object": {
+        "_id": "5a903dfb00cb9700140686f3",
+        "updatedAt": "2018-02-23T16:14:51.565Z",
+        "createdAt": "2018-02-23T16:14:51.565Z",
+        "author": "5a7880dd1b54380014932be9",
+        "type": "flag",
+        "title": "iSSUE",
+        "diligence_document": {
+          "_id": "5a7a376b9bbb050014cbb081",
+          "updatedAt": "2018-02-23T16:14:51.601Z",
+          "createdAt": "2018-02-06T23:16:59.493Z",
+          "matter": "5a7800bc80366f00143507d7",
+          "author": "5a77feeb80366f00143507d6",
+          "name": "Test Document 2.pdf",
+          "number": 3,
+          "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7a376b9bbb050014cbb081",
+          "__v": 0,
+          "assigned": [],
+          "flags": [
+            "5a903dfb00cb9700140686f3"
+          ],
+          "is_archived": false
+        },
+        "number": 0,
+        "__v": 0,
+        "resolved": false,
+        "marker": {
+          "page_num": 1,
+          "parent": {
+            "w": 863,
+            "h": 1117
+          },
+          "circle": {
+            "x": 441,
+            "y": 294,
+            "radius": 6.283185307179586
+          }
+        },
+        "description": "ISSUE",
+        "comments": [],
+        "tagged_users": [
+          {
+            "tagged": "5a7886ca1b54380014932bee",
+            "by": "5a7880dd1b54380014932be9",
+            "_id": "5a903dfb00cb9700140686f4"
+          }
+        ]
+      },
+      "action": "flagged",
+      "__v": 0,
+      "show_notification": true,
+      "show_feed": true,
+      "unread_by": [],
+      "subjects": [
+        "5a7886ca1b54380014932bee"
+      ]
+    }
+  ]
+}

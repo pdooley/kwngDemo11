@@ -1,0 +1,73 @@
+<!--
+/**********************************************************************
+ *
+ * app/comp/bad/itkBadComp.html
+ *
+ * author: Patrick Dooley
+ *
+ *
+ **********************************************************************
+ *
+ * Copyright (c) 2017 iTKunst corporation
+ *
+ **********************************************************************/
+-->
+
+<mat-horizontal-stepper>
+
+	<mat-step [stepControl]="optionGroup">
+
+		<ng-template matStepLabel>
+			Option
+		</ng-template>
+
+		<itk-form-option [crit]="crit"
+						 [group]="optionGroup"
+						 (cancel)="onCancel()">
+		</itk-form-option>
+
+	</mat-step>
+
+
+	<mat-step [stepControl]="textGroup">
+
+		<ng-template matStepLabel>
+			Feedback
+		</ng-template>
+
+		<itk-form-text [crit]="crit"
+						 [group]="textGroup"
+						 (cancel)="onCancel()">
+		</itk-form-text>
+
+	</mat-step>
+
+
+	<mat-step [stepControl]="contactGroup">
+
+		<ng-template matStepLabel>
+			Contact Info
+		</ng-template>
+
+		<itk-form-contact [crit]="crit"
+							[group]="contactGroup"
+							[guest]="guest"
+							(cancel)="onCancel()">
+		</itk-form-contact>
+
+	</mat-step>
+
+	<mat-step>
+
+		<ng-template matStepLabel>
+			Done
+		</ng-template>
+
+		<itk-form-complete [crit]="crit"
+							 (cancel)="onCancel()"
+							 (submit)="onSubmit()">
+		</itk-form-complete>
+
+	</mat-step>
+
+</mat-horizontal-stepper>

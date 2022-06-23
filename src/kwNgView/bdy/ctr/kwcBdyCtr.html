@@ -1,0 +1,45 @@
+<div *ngIf="view"
+     [class]="sStyl"
+     [id]="sId">
+
+    <div>{{sComp}}</div>
+
+    {{sText}}
+
+    <kwc-form
+        *ngIf="form"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-form>
+
+    <kwc-router
+        *ngIf="router"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-router>
+
+    <kwc-rows
+        *ngIf="rows"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-rows>
+
+    <kwc-table
+        *ngIf="table"
+        (changed)="onChanged($event)"
+        [dataIn]="data"
+        [initsIn]="inits"
+        [viewIn]="view">
+
+    </kwc-table>
+
+</div>

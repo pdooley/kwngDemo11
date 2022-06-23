@@ -1,0 +1,72 @@
+<form [formGroup]="group">
+
+
+	<div class="container"
+		 fxLayoutAlign="space-evenly start">
+
+		<mat-form-field fxFlex="45%">
+
+			<input matInput
+					 type="email"
+					 placeholder="{{ critique.email.sPlaceHolder }}"
+					 formControlName="email"
+					 value="{{ guest.email }}">
+
+			<mat-icon matPrefix>
+				email
+			</mat-icon>
+
+			<mat-hint align="start">
+				{{ critique.email.sHint }}
+			</mat-hint>
+
+		</mat-form-field>
+
+		<mat-form-field fxFlex="45%">
+
+
+			<input matInput
+					 type="tel"
+					 placeholder="{{ critique.phone.sPlaceHolder }}"
+					 formControlName="phone"
+					 value="{{ guest.phone }}">
+
+
+			<mat-icon matPrefix>
+				phone
+			</mat-icon>
+
+			<mat-hint align="start">
+				{{ critique.phone.sHint }}
+			</mat-hint>
+
+		</mat-form-field>
+
+	</div>
+
+	<div fxLayout="row"
+		 fxLayoutAlign="end end">
+
+		<button mat-button
+				color="warn"
+				(click)="onCancel()">
+			Cancel
+		</button>
+
+		<button mat-button
+				color="accent"
+				matStepperPrevious>
+			Back
+		</button>
+
+		<button mat-button
+				matStepperNext
+				color="primary">
+			Next
+		</button>
+
+
+	</div>
+
+
+</form>

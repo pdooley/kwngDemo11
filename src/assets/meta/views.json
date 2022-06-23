@@ -1,0 +1,1136 @@
+{
+    "act": {
+        "page": {
+            "util": {
+                "input": {
+                    "sPlaceHolder": "Filter Notifications by Matter Name, Associate, or Document...",
+                    "sIcon": "search",
+                    "sId": "hello"
+                },
+                "sId": "helloUtil"
+            },
+            "sId": "helloPage"
+        }
+    },
+    "binder": {
+        "sFltrId": "0.matter.id",
+        "page": {
+            "hdr": {
+                "lft": {
+                    "title": {
+                        "sText": "Binder Room"
+                    }
+                },
+                "rht": {
+                    "btn": {
+                        "title": {
+                            "sText": "Binder Room"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "chat": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Chat",
+                        "sStyle": "msgsClass"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "check": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Check",
+                        "sClass": "msgsClass"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "close": {
+        "sFltrIdD": "_id",
+        "page": {}
+    },
+    "dash": {
+        "page": {
+            "side": {
+                "bIsFixed": true,
+                "nBottom": 0,
+                "nTop": 0,
+                "sMode": "start",
+                "bHasRouter": true,
+                "logo": {
+                    "sSrc": "assets/images/dwlogo.svg"
+                },
+                "tabs": {
+                    "title": {
+                        "sText": "hello"
+                    },
+                    "links": [
+                        {
+                            "sIcon": "dashboard",
+                            "sLink": "DealsLink",
+                            "class": "object"
+                        },
+                        {
+                            "sIcon": "search",
+                            "sLink": "search",
+                            "sClass": "object"
+                        },
+                        {
+                            "sIcon": "messages",
+                            "sLink": "messages",
+                            "sClass": "object"
+                        },
+                        {
+                            "sIcon": "description",
+                            "sLink": "feed",
+                            "sClass": "object"
+                        },
+                        {
+                            "sIcon": "assignment",
+                            "sLink": "tasklist",
+                            "sClass": "object"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "deal": {
+        "page": {
+        }
+    },
+    "deals": {
+        "sFltrD": "0._id",
+        "pageDeals": {
+            "sRsltD": "0.matters",
+            "hdr": {
+                "lft": {
+                    "title": {
+                        "sTextV": "Matter Board",
+                        "sIdV": "DealsLinkTitle"
+                    }
+                },
+                "ctr": {
+                    "sIdV": "DealsLinkHdr",
+                    "tabs": {
+                        "title": {
+                            "sTextV": "General Commercial"
+                        },
+                        "links": [
+                            {
+                                "title": {
+                                    "sTextV": "General Commercial"
+                                },
+                                "sLinkV": "hello",
+                                "sIdV": "DealsLinkTab1"
+                            },
+                            {
+                                "title": {
+                                    "sTextV": "Deals"
+                                },
+                                "sLinkV": "hello2",
+                                "sIdV": "DealsLinkTab2"
+                            }
+                        ]
+                    }
+                },
+                "rht": {
+                    "btn": {
+                        "img": {
+                            "svg": {
+                                "sPath": "./assets/images/bell.svg"
+                            }
+                        },
+                        "sLinkV": "hello"
+                    },
+                    "img": {
+                        "logo": {
+                            "sIcon": "notifications_active",
+                            "sIdV": "DealsLinkLogoRgt"
+                        }
+                    }
+                }
+            },
+            "util": {
+                "lft": {
+                    "input": {
+                        "sStylV": "search-input",
+                        "sPlaceHolder": "Search for a deal",
+                        "sIcon": "search"
+                    }
+                },
+                "rht": {
+                    "select": {
+                        "sPlaceHolder": "(none)",
+                        "opts": [
+                            {
+                                "nId": 0,
+                                "sTextV": "Alphabetical"
+                            },
+                            {
+                                "nId": 1,
+                                "sTextV": "Created"
+                            },
+                            {
+                                "nId": 2,
+                                "sTextV": "Updated"
+                            }
+                        ]
+                    }
+                }
+            },
+            "deal": {
+              "sLinkD": "_id",
+              "sLinkTmpl": "/apps/matter/[0]",
+              "sFltrD": "name",
+                "firm": {
+                   "sTextD": "firm.name",
+                   "title": {
+                     "sTextD": "name"
+                   }
+                },
+                "teams": {
+                    "sRsltD": "teams",
+                    "member": {
+                       "sTextD": "member.profile_picture"
+                    }
+                },
+                 "title": {
+                    "sTextD": "name"
+                }
+            }
+        }
+    },
+    "dil": {
+        "sFltrIdD": "_id",
+        "page": {
+            "util": {
+                "lft": {
+                    "input": {
+                        "sIcon": "search",
+                        "sPlaceHolder": "Filter Notifications by Matter Name, Associate, or Document."
+                    }
+                }
+            }
+        }
+    },
+    "doc": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Document"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "draft": {
+        "page": {
+            "list": {
+                "hdr": {
+                    "sText": "Document List",
+                    "bFloatPlaceHolder": false,
+                    "input": {
+                        "sPlaceHolder": "Search&hellip;",
+                        "sText": "",
+                        "sIcon": "search"
+                    },
+                    "btn": {
+                        "sIcon": "filter_list",
+                        "sText": ""
+                    }
+                },
+                "cols": [
+                    {
+                        "col": {
+                            "sName": "#",
+                            "sField": "nId",
+                            "nWidth": "5%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Title",
+                            "sField": "sText",
+                            "nWidth": "30%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Responsible Party",
+                            "sField": "sResp",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Status",
+                            "sField": "sStatus",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Assignec To",
+                            "sField": "assigned",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Last Turn",
+                            "sField": "last",
+                            "nWidth": "10%"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "event": {
+        "page": {
+            "table": {
+                "top": {
+                    "sText": "Document List",
+                    "acts": [
+                        {
+                            "add": {
+                                "sText": "Add a New Checklist item"
+                            }
+                        }
+                    ]
+                },
+                "cols": [
+                    {
+                        "col": {
+                            "sName": "#",
+                            "sField": "nId",
+                            "nWidth": "5%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Title",
+                            "sField": "sText",
+                            "nWidth": "30%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Responsible Party",
+                            "sField": "sResp",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Status",
+                            "sField": "sStatus",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Assignec To",
+                            "sField": "assigned",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Last Turn",
+                            "sField": "last",
+                            "nWidth": "10%"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "feed": {
+        "sDataId": "0",
+        "pageFeed": {
+            "sDataId": "notifications",
+            "hdr": {
+                "lft": {
+                    "title": {
+                        "sText": "Deal Feed"
+                    }
+                },
+                "ctr": {
+                    "tabs": {
+                        "links": [
+                            {
+                                "title": {
+                                    "sText": "Activity"
+                                },
+                                "sLink": "activity"
+                            }
+                        ]
+                    }
+                },
+                "rht": {
+                    "btn": {
+                        "img": {
+                            "svg": {
+                                "sPath": "./assets/images/bell.svg"
+                            }
+                        },
+                        "sLink": "/apps/opts"
+                    }
+                }
+            },
+            "util": {
+                "lft": {
+                    "input": {
+                        "sPlaceHolder": "Search for documents, people or DealsLink",
+                        "sIcon": "search"
+                    }
+                }
+            },
+            "noti": {
+                "dil": {
+                    "desc": {
+                        "link": {},
+                        "orngLink": {}
+                    },
+                    "user": {}
+                },
+                "dilDoc": {
+                    "desc": {
+                        "orngLink": {}
+                    },
+                    "user": {}
+                },
+                "doc": {
+                    "desc": {
+                        "orngLink": {}
+                    },
+                    "user": {}
+                },
+                "flag": {
+                    "desc": {
+                        "orngLink": {}
+                    },
+                    "user": {
+                        "orngLink": {}
+                    }
+                },
+                "hdr": {},
+                "mttr": {
+                    "create": {},
+                    "desc": {},
+                    "struct": {},
+                    "term": {}
+                },
+                "sig": {
+                    "desc": {}
+                }
+            }
+        }
+    },
+    "firm": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Firm",
+                        "sClass": "msgsClass"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "flag": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Flag",
+                        "sStyle": "msgsClass"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "img": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Image",
+                        "sStyle": "msgsClass"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "info": {
+        "page": {
+            "hdr": {
+                "sStyle": "full-header",
+                "ctr": {
+                    "title": {
+                        "sText": "Matter Info",
+                        "sStyle": "roster-title"
+                    }
+                }
+            },
+            "form": {
+            }
+        }
+    },
+    "inv": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Invitation",
+                        "sStyle": "msgsClass"
+                    }
+                },
+                "rht": {}
+            },
+            "form": {
+            }
+        }
+    },
+    "matter": {
+        "sFltrIdD": "id",
+        "page": {
+            "hdr": {
+                "lft": {
+                    "img": {
+                        "svg": {
+                            "sPath": "./assets/images/x.svg"
+                        }
+                    }
+                },
+                "ctr": {
+                    "title": {
+                        "sTextIdD": "0.matter.name",
+                        "sStyle": "matterClass"
+                    },
+                    "subTitle": {
+                        "sTextIdD": "0.matter.firm.name"
+                    },
+                    "tabs": {
+                        "links": [
+                            {
+                                "title": {
+                                    "sText": "Deal Playbook"
+                                },
+                                "sLink": "playbook/activity"
+                            },
+                            {
+                                "title": {
+                                    "sText": "Diligence Room"
+                                },
+                                "sLink": "diligence"
+                            },
+                            {
+                                "title": {
+                                    "sText": "Drafting Room"
+                                },
+                                "sLink": "war"
+                            },
+                            {
+                                "title": {
+                                    "sText": "Signature Room"
+                                },
+                                "sLink": "closing"
+                            },
+                            {
+                                "title": {
+                                    "sText": "Binder Room"
+                                },
+                                "sLink": "binder"
+                            }
+                        ]
+                    }
+                },
+                "rht": {
+                    "btn": {
+                        "img": {
+                            "svg": {
+                                "sPath": "./assets/images/bell.svg"
+                            }
+                        },
+                        "sLink": "/apps/opts"
+                    }
+                }
+            },
+            "bdy": {
+                "ctr": {
+                    "router": {
+                    }
+                }
+            }
+        }
+    },
+    "msg": {
+        "sFltrIdD": "_id",
+        "page": {
+            "hdr": {
+                "lft": {
+                    "title": {
+                        "sText": "Messages"
+                    }
+                },
+                "ctr": {
+                    "tabs": [
+                        {
+                            "title": {
+                                "sText": "Internal"
+                            },
+                            "sLink": "internal"
+                        },
+                        {
+                            "title": {
+                                "sText": "External"
+                            },
+                            "sLink": "external"
+                        },
+                        {
+                            "title": {
+                                "sText": "Create"
+                            },
+                            "sLink": "create"
+                        }
+                    ]
+                },
+                "rht": {
+                    "btn": {
+                        "img": {
+                            "svg": {
+                                "sPath": "./assets/images/bell.svg"
+                            }
+                        }
+                    }
+                }
+            },
+            "side": {
+                "input": {
+                    "sPlaceHolder": "Search Messages",
+                    "sIcon": "search"
+                }
+            }
+        }
+    },
+    "opts": {
+        "opts": {
+            "sInitId": "opts",
+            "chks": [
+                {
+                    "sText": "Search All",
+                    "sInitId": "bAll"
+                },
+                {
+                    "sIcon": "add",
+                    "sText": "Calendar Events",
+                    "sInitId": "bCalendar"
+                },
+                {
+                    "sIcon": "accessibility",
+                    "sText": "People",
+                    "sInitId": "bPeople"
+                },
+                {
+                    "sIcon": "account_balance_wallet",
+                    "sText": "Documents",
+                    "sInitId": "bDocs"
+                },
+                {
+                    "sIcon": "airline_seat_flat_angle",
+                    "sText": "DealsLink",
+                    "sInitId": "bDealsLink"
+                },
+                {
+                    "sIcon": "change history",
+                    "sText": "Messages",
+                    "sInitId": "bMsgs"
+                },
+                {
+                    "sIcon": "dashboard",
+                    "sText": "CheckList Items",
+                    "sInitId": "bChks"
+                },
+                {
+                    "sIcon": "alarm on",
+                    "sText": "Notifications",
+                    "sInitId": "bNotis"
+                },
+                {
+                    "sIcon": "build",
+                    "sText": "Links",
+                    "sInitId": "bLinks"
+                },
+                {
+                    "sIcon": "copyright",
+                    "sText": "Clients",
+                    "sInitId": "bClients"
+                }
+            ]
+        }
+    },
+    "play": {
+        "page": {
+            "bdy": {
+                "lft": {
+                    "nav": {
+                        "title": {
+                            "sText": "Playbook"
+                        },
+                        "links": [
+                            {
+                                "sIcon": "",
+                                "sLink": "activity",
+                                "title": {
+                                    "sText": "Activity"
+                                }
+                            },
+                            {
+                                "sIcon": "",
+                                "sLink": "matter_info",
+                                "title": {
+                                    "sText": "Matter Info"
+                                }
+                            },
+                            {
+                                "sIcon": "",
+                                "sLink": "roster",
+                                "title": {
+                                    "sText": "Roster"
+                                }
+                            },
+                            {
+                                "sIcon": "",
+                                "sLink": "term_sheet",
+                                "title": {
+                                    "sText": "Term Sheet"
+                                }
+                            },
+                            {
+                                "sIcon": "assignment",
+                                "sLink": "./add_event",
+                                "title": {
+                                    "sText": "Add an Event"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "playNav": {
+        "fltr": "5a8b822bd7fcda001409632f",
+        "nav": {
+            "sText": "Playbook",
+            "sLogo": "",
+            "links": [
+                {
+                    "sIcon": "",
+                    "sLink": "activity",
+                    "title": {
+                        "sText": "Activity"
+                    }
+                },
+                {
+                    "sIcon": "",
+                    "sLink": "matter_info",
+                    "title": {
+                        "sText": "Matter Info"
+                    }
+                },
+                {
+                    "sIcon": "",
+                    "sLink": "roster",
+                    "title": {
+                        "sText": "Roster"
+                    }
+                },
+                {
+                    "sIcon": "",
+                    "sLink": "term_sheet",
+                    "title": {
+                        "sText": "Term Sheet"
+                    }
+                },
+                {
+                    "sIcon": "assignment",
+                    "sLink": "./add_event",
+                    "title": {
+                        "sText": "Add an Event"
+                    }
+                }
+            ]
+        }
+    },
+    "roster": {
+        "page": {
+            "hdr": {
+                "lft": {},
+                "ctr": {
+                    "title": {
+                        "sText": "Lead Partner",
+                        "sStyle": "msgsClass"
+                    }
+                },
+                "rht": {}
+            }
+        }
+    },
+    "signin": {
+        "page": {}
+    },
+    "srch": {
+        "sFltrIdD":"_id",
+        "page": {
+            "hdr": {
+                "lft": {
+                    "title": {
+                        "sText": "Search"
+                    }
+                },
+                "rht": {
+                    "btn": {
+                        "img": {
+                            "svg": {
+                                "sPath": "./assets/images/bell.svg"
+                            }
+                        }
+                    },
+                    "svgRaw": {
+                        "sFillRule": "evenodd",
+                        "sD": "M27.673 38.133c-.678 3.347-3.631 5.865-7.172 5.865-3.543 0-6.496-2.518-7.175-5.865H0l5.857-11.732V14.666c0-8.1 6.555-14.667 14.644-14.667 8.087 0 14.642 6.567 14.642 14.667v11.735L41 38.133H27.673zm-7.172 2.935c1.907 0 3.516-1.229 4.123-2.935h-8.247c.604 1.706 2.213 2.935 4.124 2.935zm11.713-14.667V14.666c0-6.48-5.245-11.734-11.713-11.734-6.471 0-11.715 5.254-11.715 11.734v11.735L4.392 35.2h32.215l-4.393-8.799z"
+                    }
+                }
+            },
+            "util": {
+                "lft": {
+                    "input": {
+                        "sPlaceHolder": "Search for documents, people or DealsLink",
+                        "sIcon": "search"
+                    }
+                },
+                "rht": {
+                    "img": {
+                        "sIcon": "search"
+                    }
+                }
+            },
+            "bdy": {
+                "rht": {
+                    "opts": {
+                        "sInitId": "opts",
+                        "chks": [
+                            {
+                                "sText": "Search All",
+                                "sInitId": "bAll"
+                            },
+                            {
+                                "sIcon": "add",
+                                "sText": "Calendar Events",
+                                "sInitId": "bCalendar"
+                            },
+                            {
+                                "sIcon": "accessibility",
+                                "sText": "People",
+                                "sInitId": "bPeople"
+                            },
+                            {
+                                "sIcon": "account_balance_wallet",
+                                "sText": "Documents",
+                                "sInitId": "bDocs"
+                            },
+                            {
+                                "sIcon": "airline_seat_flat_angle",
+                                "sText": "DealsLink",
+                                "sInitId": "bDealsLink"
+                            },
+                            {
+                                "sIcon": "change history",
+                                "sText": "Messages",
+                                "sInitId": "bMsgs"
+                            },
+                            {
+                                "sIcon": "dashboard",
+                                "sText": "CheckList Items",
+                                "sInitId": "bChks"
+                            },
+                            {
+                                "sIcon": "alarm on",
+                                "sText": "Notifications",
+                                "sInitId": "bNotis"
+                            },
+                            {
+                                "sIcon": "build",
+                                "sText": "Links",
+                                "sInitId": "bLinks"
+                            },
+                            {
+                                "sIcon": "copyright",
+                                "sText": "Clients",
+                                "sInitId": "bClients"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "struct": {
+        "page": {}
+    },
+    "tasks": {
+        "page": {
+            "hdr": {
+                "lft": {
+                    "title": {
+                        "sText": "Task List"
+                    }
+                },
+                "ctr": {
+                    "tabs": {
+                        "links": [
+                            {
+                                "title": {
+                                    "sText": "Active"
+                                },
+                                "sLink": "playbook"
+                            },
+                            {
+                                "title": {
+                                    "sText": "Complete"
+                                },
+                                "sLink": "playbook"
+                            }
+                        ]
+                    }
+                },
+                "rht": {
+                    "btn": {
+                        "sLink": "/apps/deals",
+                        "img": {
+                            "svg": {
+                                "sPath": "./assets/images/bell.svg"
+                            }
+                        }
+                    }
+                }
+            },
+            "util": {
+                "lft": {
+                    "input": {
+                        "sPlaceHolder": "Search for checklist time, document or associate",
+                        "sIcon": "search"
+                    }
+                },
+                "rht": {
+                    "select": {
+                        "sText": "Sort By:",
+                        "sPlaceHolder": "Due Date",
+                        "sIcon": null,
+                        "opts": [
+                            {
+                                "nId": 0,
+                                "sName": "Due Date"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "term": {
+        "page": {
+            "table": {
+                "top": {
+                    "sText": "Document List",
+                    "acts": [
+                        {
+                            "add": {
+                                "sText": "Add a New Checklist item"
+                            }
+                        }
+                    ]
+                },
+                "cols": [
+                    {
+                        "col": {
+                            "sName": "#",
+                            "sField": "nId",
+                            "nWidth": "5%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Title",
+                            "sField": "sText",
+                            "nWidth": "30%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Responsible Party",
+                            "sField": "sResp",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Status",
+                            "sField": "sStatus",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Assignec To",
+                            "sField": "assigned",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Last Turn",
+                            "sField": "last",
+                            "nWidth": "10%"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "user": {
+        "hdr": {
+            "lft": {},
+            "ctr": {
+                "title": {
+                    "sText": "Matter",
+                    "sStyle": "matterClass"
+                },
+                "tabs": [
+                    {
+                        "sText": "Deal Playbook",
+                        "sLink": "playbook/activity"
+                    },
+                    {
+                        "sText": "Diligence Room",
+                        "sLink": "diligence"
+                    },
+                    {
+                        "sText": "Drafting Room",
+                        "sLink": "war"
+                    },
+                    {
+                        "sText": "Signature Room",
+                        "sLink": "closing"
+                    },
+                    {
+                        "sText": "Binder Room",
+                        "sLink": "binder"
+                    }
+                ]
+            },
+            "rht": {}
+        }
+    },
+    "war": {
+        "page": {
+            "table": {
+                "top": {
+                    "sText": "Document List",
+                    "acts": [
+                        {
+                            "add": {
+                                "sText": "Add a New Checklist item"
+                            }
+                        }
+                    ]
+                },
+                "cols": [
+                    {
+                        "col": {
+                            "sName": "#",
+                            "sField": "nId",
+                            "nWidth": "5%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Title",
+                            "sField": "sText",
+                            "nWidth": "30%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Responsible Party",
+                            "sField": "sResp",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Status",
+                            "sField": "sStatus",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Assignec To",
+                            "sField": "assigned",
+                            "nWidth": "10%"
+                        }
+                    },
+                    {
+                        "col": {
+                            "sName": "Last Turn",
+                            "sField": "last",
+                            "nWidth": "10%"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

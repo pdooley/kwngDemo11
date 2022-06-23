@@ -1,0 +1,22 @@
+{
+  "_id": "5a7802ab361a4800148e5f1a",
+  "updatedAt": "2018-02-20T18:47:46.606Z",
+  "createdAt": "2018-02-05T07:07:23.092Z",
+  "matter": "5a7800bc80366f00143507d7",
+  "author": "5a77feeb80366f00143507d6",
+  "name": "Test doc1.pdf",
+  "number": 2,
+  "url": "https://s3.amazonaws.com/dealwip/5a7800bc80366f00143507d7/diligence/5a7802ab361a4800148e5f1a",
+  "__v": 0,
+  "assigned": [
+    "5a77feeb80366f00143507d6"
+  ],
+  "flags": [
+    "5a786e311b54380014932b9c",
+    "5a788f2a1b54380014932c20",
+    "5a78c5e961687b0014ea481f",
+    "5a8c6d523ba28e0014fcc120"
+  ],
+  "is_archived": false
+}
+

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "code": "en",
+    "name": "English",
+    "nativeName": "English"
+  },
+  {
+    "id": 1,
+    "code": "fr",
+    "name": "French",
+    "nativeName": "français, langue française"
+  },
+  {
+    "id": 2,
+    "code": "de",
+    "name": "German",
+    "nativeName": "Deutsch"
+  },
+  {
+    "id": 3,
+    "code": "es",
+    "name": "Spanish",
+    "nativeName": "Espagnol"
+  },
+  {
+    "id": 4,
+    "code": "ru",
+    "name": "Russian",
+    "nativeName": "русский язык"
+  }
+]

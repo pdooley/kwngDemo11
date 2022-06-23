@@ -1,0 +1,30 @@
+<div
+    *ngIf="view"
+    [class]="sStyl"
+    [id]="sId">
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+         [attr.height]="sHeight"
+         [attr.viewBox]="sViewBox"
+         [attr.width]="sWidth">
+
+
+        <kwc-svg-raw-defs
+            [dataIn]="data"
+            [initsIn]="inits"
+            [viewIn]="view">
+
+        </kwc-svg-raw-defs>
+
+
+        <kwc-svg-raw-path
+            [dataIn]="data"
+            [initsIn]="inits"
+            [viewIn]="view">
+
+        </kwc-svg-raw-path>
+
+
+    </svg>
+
+</div>

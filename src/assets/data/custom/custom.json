@@ -1,0 +1,8 @@
+{
+    "auth0ClientID": "Z7YBJ00ykCYLEaUH_Fdwp2_k6PjOBTc4",
+    "auth0Domain": "itkunst.auth0.com",
+    "allowEndUserAccounts": true,
+    "allowResellerAccounts": true,
+    "auth0CustomerConnectionName": "Username-Password-Authentication",
+    "auth0Scope": "openid"
+}

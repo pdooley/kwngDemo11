@@ -1,0 +1,66 @@
+<div>kwcDlgTitle</div>
+<!--
+/**********************************************************************
+ *
+ * kwDlg/asset/kwDlgTitle.html
+ *
+ * author: Patrick Dooley
+ *
+ *
+ **********************************************************************
+ *
+ * Copyright (c) 2017 iTKunst corporation
+ *
+ **********************************************************************/
+-->
+
+<div fxLayout="column"
+     fxLayoutAlign="center center"
+     [style.height.px]="view.title.nHeight">
+
+    <div fxLayout="row">
+
+        <img src="{{ view.logo.sUrl }}"
+             width="150px"
+             alt="{{ view.logo.sAlt }}">
+
+        <div *ngIf="view.bIsXVisible">
+
+            <button mat-icon-button
+                    (click)="onCancel()"
+                    [style.padding.px]="0">
+
+                <mat-icon class="kwc-icon">
+                    close
+                </mat-icon>
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div fxLayout="row"
+         fxLayoutAlign="center center"
+         [style.height.px]="view.nHeight">
+
+        <div mat-dlg-title>
+
+            <h6 i18n>
+                {{ view.title.sFirst }}
+            </h6>
+
+            <h1 i18n>
+                {{ view.title.sSecond }}
+            </h1>
+
+            <h5 class="kwc-third">
+                {{ view.title.sThird }}
+            </h5>
+
+        </div>
+
+    </div>
+
+
+</div>

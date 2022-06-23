@@ -1,0 +1,17 @@
+<div>kwNgCol</div>
+<div *ngIf="view">
+
+    <ng-container matColumnDef="view.def">
+
+        <mat-header-cell *matHeaderCellDef>
+            {{view.sName}}
+        </mat-header-cell>
+
+
+        <mat-cell *matCellDef="let element">
+            {{element.position}}
+        </mat-cell>
+
+    </ng-container>
+
+</div>
